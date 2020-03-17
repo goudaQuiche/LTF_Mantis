@@ -3,7 +3,7 @@
 		<defName>MantisBSQuote01</defName>
 		<title>Cereal killer</title>
 		<titleShort>CerealKiller</titleShort>
-		<baseDescription>[PAWN_nameDef] cant bear the sound of plants growing</baseDescription>
+		<baseDescription>[PAWN_nameDef] cant bear the sound of plants growing.</baseDescription>
 		<slot>Adulthood</slot>
 
 		<!--<bodyTypeGlobal>Male</bodyTypeGlobal>-->
@@ -16,11 +16,6 @@
 		<skillGains>
 			<li><defName>Plants</defName><amount>4</amount></li>
 		</skillGains>
-		<!--
-		<forcedTraits>
-			<li><defName>GreenThumb</defName></li>
-		</forcedTraits>
-		-->
     </AlienRace.BackstoryDef>
 	
 	<AlienRace.BackstoryDef>
@@ -46,4 +41,66 @@
 		</forcedTraits>
     </AlienRace.BackstoryDef>
 
+	<AlienRace.BackstoryDef>
+		<defName>MantisBSQuote03</defName>
+		<title>Cautious pirate</title>
+		<titleShort>cautious</titleShort>
+		<baseDescription>[PAWN_nameDef] used to be part of a pirate ship crew. [PAWN_nameDef] and [PAWN_possessive] crewmates often found themselves awakened by strange sounds. A few disparitions occured and the captain was always evasive about what happened. A paranoia atmosphere settled down. After a too many months of an overcautious daily life, threatened by a nameless danger, [PAWN_nameDef] managed to escape the ship and [PAWN_possessive] fears.</baseDescription>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+		  <li>MantisBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li><defName>Social</defName><amount>-1</amount></li>
+			<li><defName>Intellectual</defName><amount>4</amount></li>
+		</skillGains>
+		<forcedTraits>
+			<li><defName>QuickSleeper</defName></li>
+			<li><defName>Nimble</defName></li>
+		</forcedTraits>
+    </AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>MantisBSQuote04</defName>
+		<title>Amnesic</title>
+		<titleShort>amnesic</titleShort>
+		<baseDescription>[PAWN_nameDef] had absolutely no idea how [PAWN_pronoun] got there. [PAWN_pronoun] seemed to have no memory to help [PAWN_objective] but distant and diffuse ones. [PAWN_pronoun] had no choice but to try to talk to others and try to make favourable impression. What could happen if others figured out [PAWN_pronoun] was an impostor, a fake?</baseDescription>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+		  <li>MantisBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li><defName>Social</defName><amount>6</amount></li>
+			<li><defName>Cooking</defName><amount>-2</amount></li>
+			<li><defName>Construction</defName><amount>-2</amount></li>
+			<li><defName>Crafting</defName><amount>-2</amount></li>
+		</skillGains>
+		<forcedTraits>
+			<li><defName>Kind</defName></li>
+			<li><defName>NightOwl</defName></li>
+		</forcedTraits>
+    </AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>MantisBSQuote05</defName>
+		<title>Urban</title>
+		<titleShort>urban</titleShort>
+		<baseDescription>[PAWN_nameDef] had to correct [PAWN_possessive] past financial mistakes. [PAWN_pronoun] found a very physical and exhausting opportunity [PAWN_pronoun] could not afford to refuse in an overcrowded city. [PAWN_pronoun] found a cheap appartment, but was unaware of the consequences that come with cheap prices. [PAWN_possessive] neighbor enjoyed having fun and did not care who was listening. Every night he had a new partner. Every night [PAWN_nameDef] had to go through grunts, strident scratches, moanings without even having the strength nor willpower to make them stop. [PAWN_pronoun] ended up becoming very attached to decent living conditions and disgusted with his own race animality.</baseDescription>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+		  <li>MantisBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li><defName>Construction</defName><amount>7</amount></li>
+			<li><defName>Mining</defName><amount>5</amount></li>
+			<li><defName>Social</defName><amount>-2</amount></li>
+		</skillGains>
+		<forcedTraits>
+			<li><defName>Asexual</defName></li>
+			<li><defName>Jealous</defName></li>
+		</forcedTraits>
+    </AlienRace.BackstoryDef>
 </Defs>
