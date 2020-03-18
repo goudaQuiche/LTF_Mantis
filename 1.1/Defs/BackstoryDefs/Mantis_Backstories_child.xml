@@ -130,13 +130,13 @@
 			<li><defName>Shooting</defName><amount>-2</amount></li>
 		</skillGains>
 		
-	<forcedTraits>
-		<li><defName>Nerves</defName><degree>-1</degree></li>
-		<li><defName>Wimp</defName></li>
-	</forcedTraits>
-	
+		<forcedTraits>
+			<li><defName>Nerves</defName><degree>-1</degree></li>
+			<li><defName>Wimp</defName></li>
+		</forcedTraits>
 	</AlienRace.BackstoryDef>
-	    <AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
 		<defName>MantisChildBS07</defName>
 		<title>No stache</title>
 		<titleShort>nostache</titleShort>
@@ -156,8 +156,7 @@
 		</forcedTraits>
     </AlienRace.BackstoryDef>
 	
-	</AlienRace.BackstoryDef>
-	    <AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef>
 		<defName>MantisChildBS08</defName>
 		<title>Shades of red</title>
 		<titleShort>painter</titleShort>
@@ -179,8 +178,7 @@
 		</forcedTraits>
     </AlienRace.BackstoryDef>
 	
-	</AlienRace.BackstoryDef>
-	    <AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef>
 		<defName>MantisChildBS09</defName>
 		<title>Babysitter</title>
 		<titleShort>babysitter</titleShort>

@@ -45,7 +45,7 @@
 		<defName>MantisBSQuote03</defName>
 		<title>Cautious pirate</title>
 		<titleShort>cautious</titleShort>
-		<baseDescription>[PAWN_nameDef] used to be part of a pirate ship crew. [PAWN_nameDef] and [PAWN_possessive] crewmates often found themselves awakened by strange sounds. A few disparitions occured and the captain was always evasive about what happened. A paranoia atmosphere settled down. After a too many months of an overcautious daily life, threatened by a nameless danger, [PAWN_nameDef] managed to escape the ship and [PAWN_possessive] fears.</baseDescription>
+		<baseDescription>[PAWN_nameDef] used to be part of a pirate ship crew. [PAWN_nameDef] and [PAWN_possessive] crewmates often found themselves awakened by strange sounds. A few disparitions occured and the captain was always evasive about what happened. A paranoia atmosphere settled down. After too many months of an overcautious daily life, threatened by a nameless danger, [PAWN_nameDef] managed to escape the ship and [PAWN_possessive] fears.</baseDescription>
 		<slot>Adulthood</slot>
 		
 		<spawnCategories>
@@ -53,11 +53,10 @@
 		</spawnCategories>
 		<skillGains>
 			<li><defName>Social</defName><amount>-1</amount></li>
-			<li><defName>Intellectual</defName><amount>4</amount></li>
+			<li><defName>Intellectual</defName><amount>6</amount></li>
 		</skillGains>
 		<forcedTraits>
 			<li><defName>QuickSleeper</defName></li>
-			<li><defName>Nimble</defName></li>
 		</forcedTraits>
     </AlienRace.BackstoryDef>
 	
@@ -94,13 +93,90 @@
 		  <li>MantisBackstory</li>
 		</spawnCategories>
 		<skillGains>
-			<li><defName>Construction</defName><amount>7</amount></li>
-			<li><defName>Mining</defName><amount>5</amount></li>
+			<li><defName>Construction</defName><amount>5</amount></li>
+			<li><defName>Mining</defName><amount>3</amount></li>
 			<li><defName>Social</defName><amount>-2</amount></li>
 		</skillGains>
 		<forcedTraits>
 			<li><defName>Asexual</defName></li>
 			<li><defName>Jealous</defName></li>
 		</forcedTraits>
+    </AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>MantisBSQuote06</defName>
+		<title>Defected experiment</title>
+		<titleShort>defected</titleShort>
+		<baseDescription>[PAWN_nameDef] was called a defected experiment. [PAWN_pronoun] used to be hosted by a high technology security startup but not anymore. They figured out it would be handier to erase [PAWN_possessive] memories about the company critical details instead of repairing the mess they did with [PAWN_possessive] body. [PAWN_nameDef] got thrown into the outside world with a few after-effects.</baseDescription>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+		  <li>MantisBackstory</li>
+		</spawnCategories>
+		
+		<skillGains>
+			<li><defName>Melee</defName><amount>6</amount></li>
+			<li><defName>Animals</defName><amount>-2</amount></li>
+			<li><defName>Intellectual</defName><amount>-2</amount></li>
+		</skillGains>
+
+		<forcedHediffs>
+			<li>PegLeg</li>
+			<li>SimpleProstheticLeg</li>
+			<li>Hediff_LTF_RightPlasteelClaws</li>
+			<li>ArchotechEye</li>
+			<li>DeathAcidifier</li>
+			<li>Painstopper</li>
+			<li>Denture</li>
+		</forcedHediffs>
+		<forcedTraits>
+			<li><defName>Tough</defName></li>
+		</forcedTraits>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>MantisBSQuote07</defName>
+		<title>Honest dumb</title>
+		<titleShort>dumb</titleShort>
+		<baseDescription>A rogue scientist infected [PAWN_nameDef]'s hive mind. The only people with the capability of stopping him were those whose mental states were already damaged before the attack. [PAWN_nameDef] was the least qualified out of all the mental patients to enter the dreamscape. A virtual reality embedded within a fungus network that kept the hive social links as a backup but got deeply altered by the infection. [PAWN_nameDef] achieved what none of his pairs could and restored the hive social links. [PAWN_pronoun] got banned from [PAWN_possessive] community for his efforts because everybody felt [PAWN_pronoun] had an awkward ascendancy over them.</baseDescription>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+		  <li>MantisBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li><defName>Intellectual</defName><amount>-4</amount></li>
+			<li><defName>Social</defName><amount>-2</amount></li>
+			<li><defName>Plants</defName><amount>6</amount></li>
+			<li><defName>Animals</defName><amount>4</amount></li>
+			<li><defName>Medicine</defName><amount>2</amount></li>
+		</skillGains>
+		
+		<forcedTraits>
+			<li><defName>Kind</defName></li>
+		</forcedTraits>
+		<forcedHediffs>
+			<li>TraumaSavant</li>
+		</forcedHediffs>
+    </AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>MantisBSQuote08</defName>
+		<title>Comet listener</title>
+		<titleShort>illuminated</titleShort>
+		<baseDescription>Each year, the Eusociality comet passes by the small hive of [PAWN_nameDef]. It's a known tale that the comet itself holds unlimited powers, cursed by an ancestral mantis hive ruler. This time, when the comet could be seen for 13 days, [PAWN_nameDef] felt like [PAWN_pronoun] got engulfed by its light and message for [PAWN_objective]. [PAWN_pronoun] had to meet this colony and help its foundation, ascent and fall.</baseDescription>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+		  <li>MantisBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li><defName>Melee</defName><amount>3</amount></li>
+			<li><defName>Construction</defName><amount>3</amount></li>
+			<li><defName>Plants</defName><amount>3</amount></li>
+			<li><defName>Crafting</defName><amount>3</amount></li>
+			<li><defName>Social</defName><amount>-3</amount></li>
+			<li><defName>Intellectual</defName><amount>-3</amount></li>
+		</skillGains>
     </AlienRace.BackstoryDef>
 </Defs>
