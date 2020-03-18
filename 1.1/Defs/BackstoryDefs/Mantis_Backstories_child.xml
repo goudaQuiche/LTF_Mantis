@@ -198,4 +198,102 @@
 		</forcedTraits>
     </AlienRace.BackstoryDef>
 	
+	<AlienRace.BackstoryDef>
+		<defName>MantisChildBS10</defName>
+		<title>To hell and back</title>
+		<titleShort>survivor</titleShort>
+		<baseDescription>Once, [PAWN_nameDef] was caught in a fire accident in [PAWN_possessive] hive school and was assumed that [PAWN_pronoun] would not live. [PAWN_possessive] mother was told that [PAWN_pronoun] was sure to die, for the terrible fire had devastated the lower half of [PAWN_possessive] body. Even if [PAWN_pronoun] were to survive, [PAWN_pronoun] would be a cripple throughout [PAWN_possessive] life. Much to be the amazement of the doctor, [PAWN_pronoun] did survive. But unfortunately from [PAWN_possessive] waist down, [PAWN_pronoun] had no motor ability. [PAWN_possessive] thin legs just dangled there, lifeless. Ultimately [PAWN_pronoun] was discharged from the hospital. But [PAWN_possessive] determination to walk was indomitable. At home, when [PAWN_pronoun] was not in bed, [PAWN_pronoun] was confined to a wheelchair. One day, [PAWN_pronoun] threw [PAWN_objective]self from the chair and pulled [PAWN_objective]self across the grass, dragging [PAWN_possessive] legs behind [PAWN_objective]. [PAWN_pronoun] reached the picket fence, raised [PAWN_objective]self up and then stake by stake, [PAWN_pronoun] began dragging [PAWN_objective]self along the fence, [PAWN_possessive] resolve to walk undeterred. [PAWN_pronoun] did this every day, with faith in [PAWN_objective]self that [PAWN_pronoun] would be able to walk unaided. With [PAWN_possessive] iron persistence and [PAWN_possessive] resolute determination, [PAWN_pronoun] did develop the ability to stand up, then to walk haltingly, then to walk by [PAWN_objective]self and then to run. And quite fast with it.
+		</baseDescription>
+		<slot>Childhood</slot>
+		<!-- <bodyTypeGlobal>Male</bodyTypeGlobal> -->
+		<spawnCategories>
+			<li>MantisBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li><defName>Medicine</defName><amount>2</amount></li>
+			<li><defName>Melee</defName><amount>2</amount></li>
+			<li><defName>Social</defName><amount>-1</amount></li>
+		</skillGains>
+		<forcedTraits>
+			<li><defName>Nerves</defName><degree>2</degree></li>
+			<li><defName>SpeedOffset</defName><degree>1</degree></li>
+		</forcedTraits>
+    </AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>MantisChildBS11</defName>
+		<title>Nature blessed</title>
+		<titleShort>Gaiadopted</titleShort>
+		<baseDescription>[PAWN_nameDef] had a troubled childhood – [PAWN_possessive] parents separated, and [PAWN_possessive] stepfather was physically abusive to [PAWN_possessive] mother and siblings. [PAWN_possessive] mother was falsely convicted twice because of [PAWN_possessive] stepfather’s allegations. Because they had no one to take care of them, [PAWN_pronoun], along with and [PAWN_possessive] siblings, had to stay in a foster home at the age of 8. It turned out that [PAWN_possessive] adoptive family lived in a peaceful farm where hard work and honesty values were dominant.
+		</baseDescription>
+		<slot>Childhood</slot>
+		<!-- <bodyTypeGlobal>Male</bodyTypeGlobal> -->
+		<spawnCategories>
+			<li>MantisBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li><defName>Plants</defName><amount>4</amount></li>
+			<li><defName>Animals</defName><amount>4</amount></li>
+			<li><defName>Social</defName><amount>2</amount></li>
+		</skillGains>
+		<forcedTraits>
+			<li><defName>DislikesMen</defName></li>
+		</forcedTraits>
+    </AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>MantisChildBS12</defName>
+		<title>Megaspider wrangler</title>
+		<titleShort>Wrangler</titleShort>
+		<baseDescription>[PAWN_nameDef] took up the only job available to sharpest of Mantiss; [PAWN_nameDef] went into  [PAWN_possessive] deepest hive cave systems to get rid of the megaspiders that were naturally taking advantage of [PAWN_possessive] siblings digging structures. Years of relentless fights and coexistence has hardened [PAWN_possessive] chitin and developed his animal empathy.</baseDescription>
+		<slot>Childhood</slot>
+
+		<spawnCategories>
+			<li>MantisBackstory</li>
+		</spawnCategories>
+		
+        <skillGains>
+			<li><defName>Melee</defName><amount>5</amount></li>
+			<li><defName>Animals</defName><amount>3</amount></li>
+		</skillGains>
+		<forcedTraits>
+			<li><defName>Beauty</defName><degree>-1</degree></li>
+			<li><defName>Tough</defName></li>
+			<li><defName>Undergrounder</defName></li>
+		</forcedTraits>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+    </AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>MantisChildBS13</defName>
+		<title>Child soldier</title>
+		<titleShort>Instrumented</titleShort>
+		<baseDescription>The soldiers who gunned down his terrified community members had also targeted [PAWN_nameDef]’s mom and dad. They tortured them, then killed them. [PAWN_nameDef] managed to run for the bush. War raged all around him. Though thousands of children across the hives fog of war had felt similar panic, growing up amidst violent conflict, it made no difference. Cowering in the trees, [PAWN_nameDef] was alone in the world. 
+		[PAWN_pronoun] stepped out of the bushes and volunteered [PAWN_objective]self as a child soldier. “I didn’t want to do it,” [PAWN_pronoun] remembers, “but the opposition had killed my family, and I had to join to protect myself.”
+		Eventually, [PAWN_nameDef] was released from service. The fighting had eased, and to the militia [PAWN_pronoun] was disposable. But [PAWN_possessive] mind was dominated by unthinkable images, and horrible, heart wrenching sounds. 
+		</baseDescription>
+		<slot>Childhood</slot>
+
+		<spawnCategories>
+			<li>MantisBackstory</li>
+		</spawnCategories>
+		
+        <skillGains>
+			<li><defName>Melee</defName><amount>5</amount></li>
+			<li><defName>Shooting</defName><amount>7</amount></li>
+		</skillGains>
+		<forcedTraits>
+			<li><defName>NaturalMood</defName><degree>-1</degree></li>
+			<li><defName>PsychicSensitivity</defName><degree>1</degree></li>
+		</forcedTraits>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+		<relationSettings>
+			<relationChanceModifierParent>0</relationChanceModifierParent>
+		</relationSettings>
+    </AlienRace.BackstoryDef>
+	
 </Defs>
