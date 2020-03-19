@@ -14,7 +14,7 @@
 		
 		<baseCost>1200</baseCost>
 		<techLevel>Spacer</techLevel>
-		<tab>LTF</tab>
+		<tab>LTF_MantisRace</tab>
 		<prerequisites>
 			<li>LTF_Research_MantisBladeT0</li>
 			<li>LongBlades</li>

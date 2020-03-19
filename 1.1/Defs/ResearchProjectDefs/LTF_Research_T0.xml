@@ -17,7 +17,7 @@ Please purchase our latest update.
 		
 		<baseCost>500</baseCost>
 		<techLevel>Industrial</techLevel>
-		<tab>LTF</tab>
+		<tab>LTF_MantisRace</tab>
 		<prerequisites>
 			<li>Smithing</li>
 		</prerequisites>

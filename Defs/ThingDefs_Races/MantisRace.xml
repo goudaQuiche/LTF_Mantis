@@ -326,7 +326,7 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 				<li>Normal</li>
 			</aliencrowntypes>
 			<!-- stache attempt -->
-			<headBodyPartDef>BodyPart_LTF_MantisStache</headBodyPartDef>
+			<!-- <headBodyPartDef>BodyPart_LTF_MantisStache</headBodyPartDef> -->
 			
 			<useSkincolorForHair>true</useSkincolorForHair>
 			<!--<customPortraitDrawSize>(0.8, 0.8)</customPortraitDrawSize>-->
