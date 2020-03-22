@@ -22,7 +22,7 @@ Please purchase our latest update.
 			<li>Smithing</li>
 		</prerequisites>
 		<researchViewX>0</researchViewX>
-		<researchViewY>1.8</researchViewY>
+		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 	
 </Defs>
