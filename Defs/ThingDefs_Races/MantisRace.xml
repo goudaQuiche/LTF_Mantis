@@ -154,8 +154,6 @@ While Mantis excel at combat, especially personal combat, they are the least ade
                 </li>
 		</factionRelations>
 	
-		<!-- <pawnsSpecificBackstories>true</pawnsSpecificBackstories> -->
-		<!-- <pawnsSpecificBackstories>false</pawnsSpecificBackstories> -->
 		<alienPartGenerator>
 			<!-- -->
 			<alienbodytypes>
@@ -475,10 +473,11 @@ While Mantis excel at combat, especially personal combat, they are the least ade
         <li>
           <def>HumanlikeAdult</def>
           <minAge>15</minAge>
-          <soundWounded>Pawn_Bear_Injured</soundWounded>
-          <soundDeath>Pawn_Bear_Death</soundDeath>
-          <soundCall>Pawn_Bear_Call</soundCall>
-          <soundAngry>Pawn_Bear_Angry</soundAngry>
+		  
+          <soundWounded>Pawn_Spelopede_Pain</soundWounded>
+          <soundDeath>Pawn_Spelopede_Death</soundDeath>
+          <soundCall>Pawn_Spelopede_Call</soundCall>
+          <soundAngry>Pawn_Spelopede_Angry</soundAngry>
         </li>
 
       </lifeStageAges>
@@ -486,16 +485,16 @@ While Mantis excel at combat, especially personal combat, they are the least ade
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
       <ageGenerationCurve>
-        <points>
-          <li>(14,0)</li>
-          <li>(16,100)</li>
-          <li>(50,100)</li>
-          <li>(60,30)</li>
-          <li>(70,18)</li>
-          <li>(80,10)</li>
-          <li>(90,3)</li>
-          <li>(100,0)</li>
-        </points>
+		<points>
+			<li>(14,0)</li>
+			<li>(16,100)</li>
+			<li>(50,100)</li>
+			<li>(60,30)</li>
+			<li>(70,18)</li>
+			<li>(80,10)</li>
+			<li>(90,3)</li>
+			<li>(100,0)</li>
+		</points>
       </ageGenerationCurve>
       <hediffGiverSets>
         <li>OrganicStandard</li>

@@ -92,7 +92,7 @@
 				<options>
 					<MantisColonist>20</MantisColonist>
 					<MantisGuard>10</MantisGuard>
-					<MantisFighter>5</MantisFighter>
+					<MantisFighter>2</MantisFighter>
 				</options>
 		</li>
       <li>
@@ -101,7 +101,7 @@
 			<MantisColonist>50</MantisColonist>
 			<MantisGuard>90</MantisGuard>
 			<MantisGrenadier>50</MantisGrenadier>
-			<MantisFighter>100</MantisFighter>
+			<MantisFighter>60</MantisFighter>
 			<MantisHunter>80</MantisHunter>
 			<MantisHistGuard>40</MantisHistGuard>
 			<MantisShadowscale>10</MantisShadowscale>
@@ -113,8 +113,10 @@
 			<MantisTrader>1</MantisTrader>
         </traders>
         <carriers>
-			<Muffalo>2</Muffalo>
-			<Dromedary>2</Dromedary>
+			<Muffalo>1</Muffalo>
+			<!-- <Dromedary>2</Dromedary> -->
+			<!-- packanimal -->
+			<Megaspider>2</Megaspider>
         </carriers>
         <guards>
 			<MantisColonist>50</MantisColonist>

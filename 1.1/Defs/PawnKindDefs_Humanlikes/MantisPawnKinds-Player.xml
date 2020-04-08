@@ -14,11 +14,11 @@
 		<defName>Mantis</defName>
 		<label>colonist</label>
 		<defaultFactionType>PlayerColony</defaultFactionType>
+
 		<backstoryCategories>
 			<li>MantisBackstory</li>
 		</backstoryCategories>
-		<!-- B19 <backstoryCategory>MantisBackstory</backstoryCategory> -->
-		<!-- <apparelAllowHeadwearChance>.01</apparelAllowHeadwearChance> -->
+
 		<apparelTags>
 			<li>Neolithic</li>
 		</apparelTags>
@@ -26,6 +26,7 @@
 			<min>50</min>
 			<max>300</max>
 		</apparelMoney>
+		
 		<backstoryCryptosleepCommonality>0.1</backstoryCryptosleepCommonality>
 	</PawnKindDef>
 

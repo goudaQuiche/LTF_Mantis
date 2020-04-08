@@ -4,7 +4,6 @@
 <!-- *BUG* this item will destroy any underlying stockpile. Try to use a shelf.</description> -->
 
 	<ThingDef Name="LTF_SyntClaws" ParentName="BodyPartBionicBase" Abstract="True" >
-		<techLevel>Industrial</techLevel>
 		<alwaysHaulable>true</alwaysHaulable>
 		<tickerType>Never</tickerType>
 		<!-- equipable comme thrumbo horn ? -->
@@ -15,20 +14,18 @@
 		
 		<thingCategories>
 			<li>WeaponsMelee</li>
-			<!-- <li>BodyPartsArtificial</li> -->
 		</thingCategories>
-		
 		<tradeTags>
 			<li>BodyPartOrImplant</li>
 		</tradeTags>
-		
+
+		<techLevel>Medieval</techLevel>		
 		<techHediffsTags>
 			<li>Advanced</li>
 		</techHediffsTags>
 		
-		<weaponTags>
+		<weaponTags Inherit="False">
 			<li>NonNeolithicOnlyMelee</li>
-			<li>NeolithicMeleeAdvanced</li>
 		</weaponTags>
 		
 		<graphicData>
@@ -87,10 +84,6 @@
 
 		<defName>LTF_SteelClaws</defName>
 		<description>Mantis rely on steel when they lack a claw or two.
-		
-Craftable at :
-- any smithy
-- Engi bench
 
 There must be a better solution.</description>
 
@@ -108,7 +101,7 @@ There must be a better solution.</description>
 			<Flammability>1.0</Flammability>
 			<DeteriorationRate>2</DeteriorationRate>
 			<Beauty>-6</Beauty>
-			<MarketValue>1000</MarketValue>
+			<!-- <MarketValue>1000</MarketValue> -->
 		</statBases>
 
 		<costList>
@@ -122,7 +115,9 @@ There must be a better solution.</description>
 			<workSkill>Crafting</workSkill>
 			<effectWorking>Smith</effectWorking>
 			<soundWorking>Recipe_Machining</soundWorking>
+			
 			<recipeUsers>
+				<li>TableMachining</li>
 				<li>ElectricSmithy</li>
 				<li>FueledSmithy</li>
 			</recipeUsers>
@@ -132,10 +127,7 @@ There must be a better solution.</description>
 	
 	<ThingDef Name="LTF_PlasteelClaws" ParentName="LTF_SyntClaws" Abstract="True">
 		<defName>LTF_PlasteelClaws</defName>
-		<description>Plasteel claws. New recipe with 50% more sharpness.
-		
-Craftable at :
-- Engi bench</description>
+		<description>Plasteel claws. New recipe with 50% more sharpness.</description>
 		<label>Plasteel claws - template</label>
 		<graphicData>
 			<color>(160,178,181)</color>
@@ -145,27 +137,14 @@ Craftable at :
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToMake>35000</WorkToMake>
 			<Mass>1.2</Mass>
-			<!-- <Weapon_Bulk>1.05</Weapon_Bulk> -->
 			<Flammability>1.0</Flammability>
 			<DeteriorationRate>2</DeteriorationRate>
 			<Beauty>-6</Beauty>
-			<!-- <SellPriceFactor>0.20</SellPriceFactor> -->
-			<MarketValue>2500</MarketValue>
+			<!-- <MarketValue>2500</MarketValue> -->
 		</statBases>
 		
-<!--
-		<stuffCategories>
-			<li>Metallic</li>
-			<li>Woody</li>
-			<li>Stony</li>
-		</stuffCategories>
-		
-		<costStuffCount>60</costStuffCount>
-		<surfaceType>Item</surfaceType>		
-		-->
 		<costList>
 			<Plasteel>120</Plasteel>
-			<!-- <Plasteel>20</Plasteel> -->
 			<Steel>20</Steel>
 			<Cloth>10</Cloth>
 			<WoodLog>5</WoodLog>
