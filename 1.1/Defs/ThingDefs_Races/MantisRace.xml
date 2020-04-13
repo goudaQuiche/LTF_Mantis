@@ -24,7 +24,7 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 		<ComfyTemperatureMin>-15</ComfyTemperatureMin>
 		<ComfyTemperatureMax>32</ComfyTemperatureMax>
 		
-		<Flammability>1.0</Flammability>
+		<Flammability>.7</Flammability>
 		
 		<LeatherAmount>0</LeatherAmount>
 		<MarketValue>1900</MarketValue>
@@ -369,16 +369,9 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 				<defName>Psychopath</defName>
 				<chance>30</chance>
 			</li>
-
 			<li>
-				<defName>SpeedOffset</defName>
-				<degree>1</degree>
+				<defName>Cannibal</defName>
 				<chance>30</chance>
-			</li>
-			<li>
-				<defName>SpeedOffset</defName>
-				<degree>2</degree>
-				<chance>20</chance>
 			</li>
 		</forcedRaceTraitEntries>
 	</generalSettings>    
