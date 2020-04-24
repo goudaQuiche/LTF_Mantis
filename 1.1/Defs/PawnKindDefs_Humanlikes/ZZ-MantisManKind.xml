@@ -10,9 +10,15 @@
     <race>Alien_Mantis</race>
     <combatPower>100</combatPower>
     <baseRecruitDifficulty>0.30</baseRecruitDifficulty>
-    <backstoryCategories>
-		<li>Civil</li>
-	</backstoryCategories>
+	
+    <backstoryFiltersOverride>
+		<li>
+		<categories>
+			<li>Civil</li>
+		</categories>
+		</li>
+	</backstoryFiltersOverride>
+	
     <!-- <defaultFactionType>SpacerHostile</defaultFactionType> -->
 	<defaultFactionType>Pirate</defaultFactionType>
     <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
@@ -56,9 +62,15 @@
     <race>Alien_Mantis</race>
     <combatPower>25</combatPower>
     <baseRecruitDifficulty>0.30</baseRecruitDifficulty>
-    <backstoryCategories>
-		<li>Civil</li>
-	</backstoryCategories>
+	
+    <backstoryFiltersOverride>
+		<li>
+		<categories>
+			<li>Civil</li>
+		</categories>
+		</li>
+	</backstoryFiltersOverride>
+	
     <defaultFactionType>Ancients</defaultFactionType>
     <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
     <forceNormalGearQuality>true</forceNormalGearQuality>

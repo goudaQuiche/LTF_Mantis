@@ -7,7 +7,7 @@
 		<defaultFactionType>MantisFaction</defaultFactionType>
 		<race>Alien_Mantis</race>
 
-		<backstoryFilters>
+		<backstoryFiltersOverride>
 		  <li>
 			<categories>
 				<li>Offworld</li>
@@ -16,7 +16,7 @@
 				<li>MantisBackstory</li>
 			</categories>
 		  </li>
-		</backstoryFilters>
+		</backstoryFiltersOverride>
 
 		<!-- <backstoryCategory>MantisBackstory</backstoryCategory> -->
 		<chemicalAddictionChance>0.05</chemicalAddictionChance>

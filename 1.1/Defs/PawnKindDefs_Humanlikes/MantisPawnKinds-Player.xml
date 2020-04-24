@@ -15,10 +15,14 @@
 		<label>colonist</label>
 		<defaultFactionType>PlayerColony</defaultFactionType>
 
-		<backstoryCategories>
-			<li>MantisBackstory</li>
-		</backstoryCategories>
-
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MantisBackstory</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		
 		<apparelTags>
 			<li>Neolithic</li>
 		</apparelTags>

@@ -30,10 +30,13 @@
 		<playerInitialSettlementNameMaker>NamerFactionMantisVillage</playerInitialSettlementNameMaker>
 		
 
-		<!-- <backstoryCategory>MantisBackstory</backstoryCategory> -->
-		<backstoryCategories>
-			<li>MantisBackstory</li>
-		</backstoryCategories>
+		<backstoryFilters>
+		<li>
+			<categories>
+				<li>MantisBackstory</li>
+			</categories>
+		</li>
+		</backstoryFilters>
 
 		<settlementTexturePath>Mantis/npcZoom</settlementTexturePath>
 		<factionIconPath>Mantis/npc</factionIconPath>

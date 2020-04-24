@@ -27,10 +27,14 @@
 		<techLevel>Industrial</techLevel>
 		<!--<backstoryCategory>MantisBackstory</backstoryCategory>		-->
 
-		<backstoryCategories>
-			<li>Raider</li>
-			<li>MantisBackstory</li>
-		</backstoryCategories>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Raider</li>
+					<li>MantisBackstory</li>
+				</categories>
+			</li>
+		</backstoryFilters>
 		
 		<hairTags>
 			<li>Mantis</li>
