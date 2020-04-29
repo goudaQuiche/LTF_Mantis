@@ -171,19 +171,19 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 					<path>Mantis/Claws/Left/Left</path>
 					<bodyPart>BodyPart_LTF_LeftClaws</bodyPart>
 					<inFrontOfBody>true</inFrontOfBody>
-					<angle>3</angle>
+					<!-- <angle>3</angle> -->
 					<useSkinColor>false</useSkinColor>
 					<offsets>
 						<!-- seen right ~ -0.4325 --> 
 						<south>
 							<bodyTypes>
 								<!-- +0.1075 --> <!-- 2150/2 -->
-								<Male>(-.33,	.15)</Male>
+								<Male>(-.335,	.15)</Male>
 								<!-- +-0.2 -->
-								<Female>(-.415,	.15)</Female>
-								<Thin>(-.415,	.15)</Thin>
-								<Hulk>(-0.29,	.15)</Hulk>
-								<Fat>(-0.29,	.15)</Fat>
+								<Female>(-.39,	.15)</Female>
+								<Thin>(-.4,	.15)</Thin>
+								<Hulk>(-0.25,	.15)</Hulk>
+								<Fat>(-0.27,	.15)</Fat>
 							</bodyTypes>
 						</south>
 						<!-- seen left ~ M -0.024 F -->
@@ -229,12 +229,13 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 						<south>
 							<bodyTypes>
 								<!-- -11.75 -->
+								
 								<Male>(-.53,	.15)</Male>
-								<Female>(-.46,	.15)</Female>
-								<Thin>(-.46,	.15)</Thin>
-								<!-- <Hulk>(-.46,	.15)</Hulk> -->
-								<Hulk>(-.57,	.15)</Hulk>
-								<Fat>(-.57,	.15)</Fat>
+								<Female>(-.48,	.15)</Female>
+								<Thin>(-.45,	.15)</Thin>
+								<Hulk>(-.61,	.15)</Hulk>
+								<Fat>(-.61,		.15)</Fat>
+								
 							</bodyTypes>
 						</south>
 						<!-- seen right -->

@@ -71,12 +71,12 @@
   
 	<PawnKindDef ParentName="MantisCivBase">
 		<defName>MantisColonist</defName>
-		<label>colonist</label>
+		<label>mantis colonist</label>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="MantisCivBase">
 		<defName>MantisTrader</defName>
-		<label>colony trader</label>
+		<label>mantis colony trader</label>
 		<trader>true</trader>
 		
 		<weaponTags>
@@ -87,24 +87,24 @@
 
     <PawnKindDef ParentName="MantisCivBase">
     <defName>MantisSlave</defName>
-    <label>slave</label>
+    <label>mantis slave</label>
   </PawnKindDef>
 
     <PawnKindDef ParentName="MantisCivBase">
     <defName>MantisRefugee</defName>
-    <label>refugee</label>
+    <label>mantis refugee</label>
   </PawnKindDef>
   
   <PawnKindDef ParentName="MantisCivBase">
     <defName>MantisWanderer</defName>
-    <label>wanderer</label>
+    <label>mantis wanderer</label>
   </PawnKindDef>
   
   <!-- ============================ Mantis Security ========================== -->
   
   <PawnKindDef ParentName="MantisCivBase">
     <defName>MantisGuard</defName>
-    <label>guard</label>
+    <label>mantis guard</label>
     <combatPower>50</combatPower>
     <maxGenerationAge>40</maxGenerationAge>
     <gearHealthRange>
@@ -216,7 +216,7 @@
   
   <PawnKindDef ParentName="MantisCivBase">
     <defName>MantisFighter</defName>
-    <label>Fighter</label>
+    <label>mantis fighter</label>
 	
 		<apparelTags>
 			<li>Apparel_ShieldBelt</li>
@@ -247,7 +247,7 @@
   	<PawnKindDef ParentName="MantisBase">
 		<defName>MantisGrenadier</defName>
 		<combatPower>70</combatPower>
-		<label>grenadier</label>
+		<label>mantis grenadier</label>
 		
 		<gearHealthRange>
 			<min>0.7</min>
@@ -277,7 +277,7 @@
   
   <PawnKindDef ParentName="MantisMilBase">
     <defName>MantisHunter</defName>
-    <label>hunter</label>
+    <label>mantis hunter</label>
     <combatPower>90</combatPower>
     <minGenerationAge>19</minGenerationAge>
     <gearHealthRange>
@@ -335,7 +335,7 @@
 
   <PawnKindDef ParentName="MantisMilBase">
     <defName>MantisHistGuard</defName>
-    <label>Hist Guardian</label>
+    <label>mantis guardian</label>
     <combatPower>135</combatPower>
     <minGenerationAge>20</minGenerationAge>
     <gearHealthRange>
@@ -388,7 +388,7 @@
   
   <PawnKindDef ParentName="MantisMilBase">
      <defName>MantisShadowscale</defName>
-    <label>Shadowscale</label>
+    <label>mantis shadowscale</label>
     <combatPower>220</combatPower>
     <minGenerationAge>26</minGenerationAge>
 	<factionLeader>true</factionLeader>

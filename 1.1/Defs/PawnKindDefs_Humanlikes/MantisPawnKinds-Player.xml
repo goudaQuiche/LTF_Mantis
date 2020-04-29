@@ -12,7 +12,7 @@
 
 	<PawnKindDef ParentName="BaseMantisPawnKind">
 		<defName>Mantis</defName>
-		<label>colonist</label>
+		<label>Mantis colonist</label>
 		<defaultFactionType>PlayerColony</defaultFactionType>
 
 		<backstoryFiltersOverride>

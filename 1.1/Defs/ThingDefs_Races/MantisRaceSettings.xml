@@ -10,9 +10,15 @@
 				<pawnKindEntries>
 					<li>
 						<kindDefs>
+							<li>Mantis</li>
+						</kindDefs>
+						<chance>90</chance>
+					</li>
+					<li>
+						<kindDefs>
 							<li>MantisColonist</li>
 						</kindDefs>
-						<chance>95.0</chance>
+						<chance>5.0</chance>
 					</li>
 					<li>
 						<kindDefs>

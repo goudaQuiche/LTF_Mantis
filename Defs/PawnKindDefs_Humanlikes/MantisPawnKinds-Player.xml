@@ -12,13 +12,14 @@
 
 	<PawnKindDef ParentName="BaseMantisPawnKind">
 		<defName>Mantis</defName>
-		<label>colonist</label>
+		<label>mantis starter</label>
 		<defaultFactionType>PlayerColony</defaultFactionType>
 		<backstoryCategories>
 			<li>MantisBackstory</li>
 		</backstoryCategories>
-		<!-- B19 <backstoryCategory>MantisBackstory</backstoryCategory> -->
-		<!-- <apparelAllowHeadwearChance>.01</apparelAllowHeadwearChance> -->
+		
+		<apparelAllowHeadgearChance>.05</apparelAllowHeadgearChance>
+		
 		<apparelTags>
 			<li>Neolithic</li>
 		</apparelTags>

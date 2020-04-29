@@ -54,24 +54,24 @@
 		</techHediffsTags>
 		<techHediffsChance>0.0001</techHediffsChance>
 		
-		<invNutrition>2.55</invNutrition>
+		<invNutrition>1.5</invNutrition>
 		<inventoryOptions>
-			<skipChance>0.45</skipChance>
+			<skipChance>0.75</skipChance>
 			<subOptionsChooseOne>
 				<li>
 					<choiceChance>90</choiceChance>
 					<thingDef>Silver</thingDef>
 					<countRange>
-						<min>25</min>
-						<max>70</max>
+						<min>10</min>
+						<max>50</max>
 					</countRange>
 				</li>
 				<li>
 					<choiceChance>10</choiceChance>
 					<thingDef>Silver</thingDef>
 					<countRange>
-						<min>100</min>
-						<max>300</max>
+						<min>30</min>
+						<max>120</max>
 					</countRange>
 				</li>
 			</subOptionsChooseOne>
@@ -101,11 +101,60 @@
 	<PawnKindDef ParentName="MantisCivBase">
 		<defName>MantisSlave</defName>
 		<label>slave</label>
+		
+		<techHediffsMoney>
+			<min>0</min>
+			<max>200</max>
+		</techHediffsMoney>
+		
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+		</techHediffsTags>
+		
+		<invNutrition>0</invNutrition>
+		<inventoryOptions>
+			<skipChance>.75</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>MedicineHerbal</thingDef>
+					<countRange>
+						<min>0</min>
+						<max>2</max>
+				</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="MantisCivBase">
 		<defName>MantisRefugee</defName>
 		<label>refugee</label>
+		
+		<invNutrition>1</invNutrition>
+		
+		<inventoryOptions>
+			<skipChance>0.25</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<choiceChance>90</choiceChance>
+					<thingDef>Silver</thingDef>
+					<countRange>
+						<min>15</min>
+						<max>50</max>
+					</countRange>
+				</li>
+				<li>
+					<choiceChance>10</choiceChance>
+					<thingDef>Silver</thingDef>
+					<countRange>
+						<min>50</min>
+						<max>200</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+		
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="MantisCivBase">
@@ -221,15 +270,15 @@
         <li>
           <thingDef>Silver</thingDef>
           <countRange>
-            <min>50</min>
-            <max>200</max>
+            <min>30</min>
+            <max>150</max>
           </countRange>
         </li>
         <li>
-          <thingDef>MedicineIndustrial</thingDef>
+          <thingDef>MedicineHerbal</thingDef>
           <countRange>
             <min>1</min>
-            <max>1</max>
+            <max>3</max>
           </countRange>
         </li>
 		<li>
@@ -384,14 +433,14 @@
 		<max>2.3</max>
     </gearHealthRange>
     <apparelTags>
-		<li>IndustrialBasic</li>
-		<li>IndustrialAdvanced</li>
 		<li>IndustrialMilitaryBasic</li>
 		<li>IndustrialMilitaryAdvanced</li>
+		<li>SpacerMilitary</li>
+		<li>SpacerMilitary</li>
     </apparelTags>
     <apparelMoney>
-		<min>1000</min>
-		<max>26000</max>
+		<min>1500</min>
+		<max>3500</max>
     </apparelMoney>
 	
     <weaponMoney>
@@ -415,13 +464,13 @@
     <techHediffsChance>0.02</techHediffsChance>
 	
     <inventoryOptions>
-      <skipChance>0.8</skipChance>
+      <skipChance>0.5</skipChance>
       <subOptionsChooseOne>
         <li>
           <thingDef>Silver</thingDef>
           <countRange>
-            <min>180</min>
-            <max>400</max>
+            <min>50</min>
+            <max>250</max>
           </countRange>
         </li>
         <li>
@@ -449,15 +498,13 @@
 		<max>3.5</max>
     </gearHealthRange>
     <apparelTags Inherit="False">
-		<li>IndustrialBasic</li>
-		<li>IndustrialAdvanced</li>
-		<li>IndustrialMilitaryBasic</li>
 		<li>IndustrialMilitaryAdvanced</li>
+		<li>SpacerMilitary</li>
 		<li>SpacerMilitary</li>
     </apparelTags>
     <apparelMoney>
 		<min>2500</min>
-		<max>24000</max>
+		<max>8000</max>
     </apparelMoney>
 	
     <weaponMoney>
@@ -482,20 +529,20 @@
     <techHediffsChance>0.05</techHediffsChance>
 	
     <inventoryOptions>
-      <skipChance>0.8</skipChance>
+      <skipChance>0.2</skipChance>
       <subOptionsChooseOne>
         <li>
           <thingDef>Silver</thingDef>
           <countRange>
-            <min>120</min>
-            <max>480</max>
+            <min>100</min>
+            <max>350</max>
           </countRange>
         </li>
         <li>
           <thingDef>MedicineIndustrial</thingDef>
           <countRange>
             <min>1</min>
-            <max>2</max>
+            <max>3</max>
           </countRange>
         </li>
       </subOptionsChooseOne>
