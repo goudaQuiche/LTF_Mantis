@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-<!-- *BUG* this item will destroy any underlying stockpile. Try to use a shelf.</description> -->
+	<!-- *BUG* this item will destroy any underlying stockpile. Try to use a shelf.</description> -->
 
 	<ThingDef Name="LTF_SyntClaws" ParentName="BodyPartBionicBase" Abstract="True" >
 		<alwaysHaulable>true</alwaysHaulable>
@@ -11,7 +11,7 @@
 		<useHitPoints>true</useHitPoints>
 		<pathCost>10</pathCost>
 		<selectable>true</selectable>
-		
+
 		<thingCategories>
 			<li>WeaponsMelee</li>
 		</thingCategories>
@@ -23,28 +23,30 @@
 		<techHediffsTags>
 			<li>Advanced</li>
 		</techHediffsTags>
-		
+
 		<weaponTags Inherit="False">
 			<li>NonNeolithicOnlyMelee</li>
 		</weaponTags>
-		
+
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(.7,.7)</drawSize>
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
 		</graphicData>
-		
+
 		<!-- <generateAllowChance>.02</generateAllowChance> -->
-		
+
 		<inspectorTabs>
 			<li>ITab_Art</li>
 		</inspectorTabs>
-		
+
 		<equippedAngleOffset>-15</equippedAngleOffset>
 		<!-- B19 <isBodyPartOrImplant>true</isBodyPartOrImplant> -->
 		<comps>
-			<li><compClass>CompQuality</compClass></li>
-			
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+
 			<li Class="CompProperties_Art">
 				<!--<nameMaker>ArtName_WeaponMelee</nameMaker>-->
 				<nameMaker>NamerArtWeaponMelee</nameMaker>
@@ -63,7 +65,7 @@
 			<li>
 				<label>handle</label>
 				<capacities>
-				<li>Blunt</li>
+					<li>Blunt</li>
 				</capacities>
 				<power>5</power>
 				<cooldownTime>2.5</cooldownTime>
@@ -71,18 +73,18 @@
 			<li>
 				<label>sharpwave</label>
 				<capacities>
-				<li>Cut</li>
+					<li>Cut</li>
 				</capacities>
 				<power>13</power>
 				<cooldownTime>2.8</cooldownTime>
 			</li>
 		</tools>
-		
+
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
 		<costStuffCount>50</costStuffCount>
-		<smeltable>true</smeltable>
+
 	</ThingDef>
 
 	<!-- Steel -->
@@ -94,11 +96,11 @@
 There must be a better solution.</description>
 
 		<label>Steel claws - template</label>
-	
+
 		<graphicData>
 			<color>(102,102,105)</color>
 		</graphicData>
-		
+
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToMake>25000</WorkToMake>
@@ -121,7 +123,7 @@ There must be a better solution.</description>
 			<workSkill>Crafting</workSkill>
 			<effectWorking>Smith</effectWorking>
 			<soundWorking>Recipe_Machining</soundWorking>
-			
+
 			<recipeUsers>
 				<li>TableMachining</li>
 				<li>ElectricSmithy</li>
@@ -129,8 +131,11 @@ There must be a better solution.</description>
 			</recipeUsers>
 			<researchPrerequisite>LTF_Research_MantisBladeT0</researchPrerequisite>
 		</recipeMaker>
+		
+		<smeltable>true</smeltable>
+		<burnableByRecipe>false</burnableByRecipe>
 	</ThingDef>
-	
+
 	<ThingDef Name="LTF_PlasteelClaws" ParentName="LTF_SyntClaws" Abstract="True">
 		<defName>LTF_PlasteelClaws</defName>
 		<description>Plasteel claws. New recipe with 50% more sharpness.</description>
@@ -138,7 +143,7 @@ There must be a better solution.</description>
 		<graphicData>
 			<color>(160,178,181)</color>
 		</graphicData>
-		
+
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToMake>35000</WorkToMake>
@@ -148,14 +153,14 @@ There must be a better solution.</description>
 			<Beauty>-6</Beauty>
 			<!-- <MarketValue>2500</MarketValue> -->
 		</statBases>
-		
+
 		<costList>
 			<Plasteel>70</Plasteel>
 			<Steel>20</Steel>
 			<Cloth>10</Cloth>
 			<WoodLog>5</WoodLog>
 		</costList>
-		
+
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -167,9 +172,11 @@ There must be a better solution.</description>
 			</recipeUsers>
 			<researchPrerequisite>LTF_Research_MantisBladeT1</researchPrerequisite>
 		</recipeMaker>
-		
+
+		<smeltable>true</smeltable>
+		<burnableByRecipe>false</burnableByRecipe>
 	</ThingDef>
-	
+
 	<!-- Steel -->
 	<ThingDef ParentName="LTF_SteelClaws">
 		<defName>LTF_RightSteelClaws</defName>
@@ -185,8 +192,8 @@ There must be a better solution.</description>
 			<texPath>Mantis/SyntClaws/Left</texPath>
 		</graphicData>
 	</ThingDef>
-	
-		<!-- Plasteel -->
+
+	<!-- Plasteel -->
 	<ThingDef ParentName="LTF_PlasteelClaws">
 		<defName>LTF_RightPlasteelClaws</defName>
 		<label>plasteel claws(right)</label>
@@ -201,7 +208,7 @@ There must be a better solution.</description>
 			<texPath>Mantis/SyntClaws/Left</texPath>
 		</graphicData>
 	</ThingDef>
-	
+
 	<!-- Wooden claw for taming / need mat-->
 	<!-- stone claw for blunt damage / need mat-->
 	<!-- museliere/camisole cloth / need mat-->
