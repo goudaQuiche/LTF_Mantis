@@ -2,6 +2,7 @@
 <Defs>
 <!-- Steel -->
 	<HediffDef Name="Hediff_LTF_SteelClaws" ParentName="AddedBodyPartBase" Abstract="true">
+
 		<stages>
 		
 		<li>
@@ -15,42 +16,22 @@
 		<!-- MeleeDPS -->
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
-				<tools>
-				  <li>
-					<label>claw</label>
-					<capacities>
-					  <li>Stab</li>
-					</capacities>
-					<power>8.0</power>
-					<cooldownTime>1.7</cooldownTime>
-					<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
-				  </li>
-				  <li>
-					<label>claw</label>
-					<capacities>
-					  <li>Cut</li>
-					</capacities>
-					<power>16.0</power>
-					<cooldownTime>2.2</cooldownTime>
-					<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
-				  </li>
-				</tools>
-				<!--
 				<verbs>
+				
 					<li>
 						<verbClass>Verb_MeleeAttack</verbClass>
 						<defaultCooldownTime>1.7</defaultCooldownTime>
 						<meleeDamageBaseAmount>8</meleeDamageBaseAmount>
 						<meleeDamageDef>Stab</meleeDamageDef>
 					</li>
+					
 					<li>
 						<verbClass>Verb_MeleeAttack</verbClass>
 						<defaultCooldownTime>2.2</defaultCooldownTime>
 						<meleeDamageBaseAmount>16</meleeDamageBaseAmount>
 						<meleeDamageDef>Cut</meleeDamageDef>
 					</li>
-				</verbs>
-				-->
+				</verbs>  
 			</li>
 		</comps>
 		
@@ -75,27 +56,6 @@
 		<!-- MeleeDPS -->
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
-				<tools>
-				  <li>
-					<label>claw</label>
-					<capacities>
-					  <li>Stab</li>
-					</capacities>
-					<power>10.0</power>
-					<cooldownTime>1.4</cooldownTime>
-					<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
-				  </li>
-				  <li>
-					<label>claw</label>
-					<capacities>
-					  <li>Cut</li>
-					</capacities>
-					<power>18.0</power>
-					<cooldownTime>2</cooldownTime>
-					<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
-				  </li>
-				</tools>
-			<!--
 				<verbs>
 					<li>
 						<verbClass>Verb_MeleeAttack</verbClass>
@@ -111,7 +71,6 @@
 						<meleeDamageDef>Cut</meleeDamageDef>
 					</li>
 				</verbs>  
-			-->
 			</li>
 		</comps>
 		
@@ -125,12 +84,10 @@
 	<!-- Mantis Claws -->
 	<HediffDef ParentName="Hediff_LTF_SteelClaws">
 		<defName>Hediff_LTF_LeftSteelClaws</defName>
-		<description>Artificial steel claws that make the patient better as a butcher</description>
 		<label>left steel claws</label>
 		<spawnThingOnRemoved>LTF_LeftSteelClaws</spawnThingOnRemoved>
 	</HediffDef>
 	<HediffDef ParentName="Hediff_LTF_SteelClaws">
-		<description>Artificial steel claws that make the patient better as a butcher</description>
 		<defName>Hediff_LTF_RightSteelClaws</defName>
 		<label>right steel claws</label>
 		<spawnThingOnRemoved>LTF_RightSteelClaws</spawnThingOnRemoved>
@@ -139,14 +96,12 @@
 
 	<HediffDef ParentName="Hediff_LTF_PlasteelClaws">
 		<defName>Hediff_LTF_LeftPlasteelClaws</defName>
-		<description>artificial plasteel claws that makes the patient a better murderer</description>
 		<label>left plasteel claw</label>
 		<spawnThingOnRemoved>LTF_LeftPlasteelClaws</spawnThingOnRemoved>
 	</HediffDef>
 	
 	<HediffDef ParentName="Hediff_LTF_PlasteelClaws">
 		<defName>Hediff_LTF_RightPlasteelClaws</defName>
-		<description>artificial plasteel claws that makes the patient a better murderer</description>
 		<label>right plasteel claw</label>
 		<spawnThingOnRemoved>LTF_RightPlasteelClaws</spawnThingOnRemoved>
 	</HediffDef>

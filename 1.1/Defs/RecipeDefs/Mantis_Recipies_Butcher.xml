@@ -3,8 +3,16 @@
 	<RecipeDef>
 		<defName>LTF_ButcherClaws</defName>
 		<label>butcher mantis claws</label>
-
 		<description>Peel a mantis claw to extract its juicy insect meat.</description>
+
+		<descriptionHyperlinks>
+			<ThingDef>Meat_Megaspider</ThingDef>
+			<ThingDef>LTF_MantisRightClaws</ThingDef>
+			<ThingDef>LTF_MantisLeftClaws</ThingDef>
+
+			<ResearchProjectDef>LTF_Research_MantisBladeT0</ResearchProjectDef>
+		</descriptionHyperlinks>
+
 		<jobString>Peeling mantis claw.</jobString>
 		<workAmount>150</workAmount>
 
@@ -27,7 +35,7 @@
 				<count>1</count>
 			</li>
 		</ingredients>
-		
+
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>LTF_MantisRightClaws</li>
@@ -39,7 +47,6 @@
 			<li>Butchery</li>
 		</specialProducts>
 
-
-
+		<researchPrerequisite>LTF_Research_MantisBladeT1</researchPrerequisite>
 	</RecipeDef>
 </Defs>

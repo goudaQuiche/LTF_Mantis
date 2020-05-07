@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<RecipeDef Name="LTF_InstallSyntClaws" ParentName="SurgeryFlesh" Abstract="true">
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing synthetic claws</jobString>
+		<workAmount>1200</workAmount>
+		<researchPrerequisite>LTF_Research_MantisBladeT0</researchPrerequisite>
+	</RecipeDef>
+
+</Defs> 

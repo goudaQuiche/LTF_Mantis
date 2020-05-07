@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Wooden -->
+	<HediffDef Name="Hediff_LTF_WoodenClaws" ParentName="AddedBodyPartBase">
+		<defName>Hediff_LTF_WoodenClaws</defName>
+		<label>wooden plank claw</label>
+		
+		<description>Artificial Wooden claws that make the mantis a better tamer</description>
+		
+		<descriptionHyperlinks>
+			<RecipeDef>LTF_InstallRightWoodenClaws</RecipeDef>
+			<RecipeDef>LTF_InstallLeftWoodenClaws</RecipeDef>
+			<thingDef>WoodLog</thingDef>
+		</descriptionHyperlinks>
+		
+		<stages>
+			<li>
+				<statOffsets>
+					<TameAnimalChance>.3</TameAnimalChance>
+				</statOffsets>
+			</li>
+		</stages>
+
+		<!-- MeleeDPS -->
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>plank</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>10</power>
+						<cooldownTime>2</cooldownTime>
+					</li>
+					<li>
+						<label>corner</label>
+						<capacities>
+							<li>Poke</li>
+						</capacities>
+						<power>9</power>
+						<cooldownTime>1.8</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+
+		<addedPartProps>
+			<partEfficiency>.65</partEfficiency>
+		</addedPartProps>
+
+		<priceImpact>false</priceImpact>
+
+		<spawnThingOnRemoved>WoodLog</spawnThingOnRemoved>
+	</HediffDef>
+
+</Defs>
