@@ -77,6 +77,12 @@
 				<cooldownTime>2.8</cooldownTime>
 			</li>
 		</tools>
+		
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<smeltable>true</smeltable>
 	</ThingDef>
 
 	<!-- Steel -->
@@ -105,7 +111,7 @@ There must be a better solution.</description>
 		</statBases>
 
 		<costList>
-			<Steel>100</Steel>
+			<Steel>60</Steel>
 			<Cloth>10</Cloth>
 			<WoodLog>5</WoodLog>
 		</costList>
@@ -144,7 +150,7 @@ There must be a better solution.</description>
 		</statBases>
 		
 		<costList>
-			<Plasteel>120</Plasteel>
+			<Plasteel>70</Plasteel>
 			<Steel>20</Steel>
 			<Cloth>10</Cloth>
 			<WoodLog>5</WoodLog>
