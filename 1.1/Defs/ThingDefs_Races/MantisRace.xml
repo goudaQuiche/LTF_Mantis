@@ -165,29 +165,31 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 						<li>Thin</li>
 					</alienbodytypes>
 
+					<useGenderedHeads>true</useGenderedHeads>
+					<aliencrowntypes>
+						<li>Normal</li>
+					</aliencrowntypes>
+					<useSkincolorForHair>true</useSkincolorForHair>
+
 					<bodyAddons>
 						<!-- Left claw-->
 						<li>
 							<path>Mantis/Claws/Left/Left</path>
 							<bodyPart>BodyPart_LTF_LeftClaws</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
-							<!-- <angle>3</angle> -->
 							<useSkinColor>false</useSkinColor>
 							<offsets>
-								<!-- seen right ~ -0.4325 --> 
+								<!-- seen right --> 
 								<south>
 									<bodyTypes>
-										<!-- +0.1075 -->
-										<!-- 2150/2 -->
 										<Male>(-.335,	.15)</Male>
-										<!-- +-0.2 -->
 										<Female>(-.39,	.15)</Female>
 										<Thin>(-.4,	.15)</Thin>
 										<Hulk>(-0.25,	.15)</Hulk>
 										<Fat>(-0.27,	.15)</Fat>
 									</bodyTypes>
 								</south>
-								<!-- seen left ~ M -0.024 F -->
+								<!-- seen left -->
 								<north>
 									<bodyTypes>
 										<Male>(	-.12,	.52)</Male>
@@ -200,7 +202,6 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 								<!-- Left side -->
 								<east>
 									<bodyTypes>
-										<!--<Male>(-0.65,.1)</Male>-->
 										<Male>(-.65,	.15)</Male>
 										<Female>(-.62,	.15)</Female>
 										<Thin>(-.62,	.15)</Thin>
@@ -209,15 +210,12 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 									</bodyTypes>
 								</east>
 							</offsets>
-							<!--
-					<backstoryGraphics>
-						<MantisChildBS02>Mantis/SyntClaws/Left/Left</MantisChildBS02>
-					</backstoryGraphics>
-					-->
+
 							<hediffGraphics>
+								<Hediff_LTF_WoodenShields>Mantis/WoodenShields/Left/Left</Hediff_LTF_WoodenShields>
+								<Hediff_LTF_WoodenClaws>Mantis/WoodenClaws/Left/Left</Hediff_LTF_WoodenClaws>
 								<Hediff_LTF_LeftSteelClaws>Mantis/SyntClaws/Left/Left</Hediff_LTF_LeftSteelClaws>
 								<Hediff_LTF_LeftPlasteelClaws>Mantis/SyntClaws/Left/Left</Hediff_LTF_LeftPlasteelClaws>
-								<Hediff_LTF_WoodenClaws>Mantis/WoodenClaws/Left/Left</Hediff_LTF_WoodenClaws>
 							</hediffGraphics>
 						</li>
 						<!-- Right claw-->
@@ -230,14 +228,11 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 								<!-- seen left -->
 								<south>
 									<bodyTypes>
-										<!-- -11.75 -->
-
 										<Male>(-.53,	.15)</Male>
 										<Female>(-.48,	.15)</Female>
 										<Thin>(-.45,	.15)</Thin>
 										<Hulk>(-.61,	.15)</Hulk>
 										<Fat>(-.61,		.15)</Fat>
-
 									</bodyTypes>
 								</south>
 								<!-- seen right -->
@@ -247,14 +242,12 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 										<Male>(	.09,	.52)</Male>
 										<Female>(0.005,	.52)</Female>
 										<Thin>(0.005,	.52)</Thin>
-										<!-- <Hulk>(	.08,	.52)</Hulk> -->
 										<Hulk>(	.17,	.52)</Hulk>
 										<Fat>(	.17,	.52)</Fat>
 									</bodyTypes>
 								</north>
 								<east>
 									<bodyTypes>
-										<!--<Male>(-0.65,.1)</Male>-->
 										<Male>(-.65,	.15)</Male>
 										<Female>(-.62,	.15)</Female>
 										<Thin>(-.62,	.15)</Thin>
@@ -263,22 +256,18 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 									</bodyTypes>
 								</east>
 							</offsets>
-							<!--
-					<backstoryGraphics>
-						<MantisChildBS02>Mantis/SyntClaws/Right/Right</MantisChildBS02>
-					</backstoryGraphics>
-					-->
+
 							<hediffGraphics>
+								<Hediff_LTF_WoodenShields>Mantis/WoodenShields/Right/Right</Hediff_LTF_WoodenShields>
+								<Hediff_LTF_WoodenClaws>Mantis/WoodenClaws/Right/Right</Hediff_LTF_WoodenClaws>
 								<Hediff_LTF_RightSteelClaws>Mantis/SyntClaws/Right/Right</Hediff_LTF_RightSteelClaws>
 								<Hediff_LTF_RightPlasteelClaws>Mantis/SyntClaws/Right/Right</Hediff_LTF_RightPlasteelClaws>
-								<Hediff_LTF_WoodenClaws>Mantis/WoodenClaws/Right/Right</Hediff_LTF_WoodenClaws>
 							</hediffGraphics>
 						</li>
 						<!-- MantisStache-->
 						<li>
 							<path>Mantis/Stache/stache</path>
 							<bodyPart>BodyPart_LTF_MantisStache</bodyPart>
-							<!-- <inFrontOfBody>true</inFrontOfBody> -->
 							<inFrontOfBody>true</inFrontOfBody>
 							<useSkinColor>true</useSkinColor>
 
@@ -324,15 +313,7 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 						</li>				
 					</bodyAddons>
 					<!-- -->
-					<useGenderedHeads>true</useGenderedHeads>
-					<aliencrowntypes>
-						<li>Normal</li>
-					</aliencrowntypes>
-					<!-- stache attempt -->
-					<!-- <headBodyPartDef>BodyPart_LTF_MantisStache</headBodyPartDef> -->
 
-					<useSkincolorForHair>true</useSkincolorForHair>
-					<!--<customPortraitDrawSize>(0.8, 0.8)</customPortraitDrawSize>-->
 					<alienskincolorgen Class="ColorGenerator_Options">
 						<options>
 							<!-- brown -->
@@ -432,6 +413,7 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 						<chance>30</chance>
 					</li>
 				</forcedRaceTraitEntries>
+
 			</generalSettings>    
 
 			<graphicPaths>
@@ -450,13 +432,16 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 					<li>EmptyHair</li>
 				</hairTags>
 			</hairSettings>
+
 			<relationSettings>
 			</relationSettings>
+
 			<thoughtSettings>
 				<cannotReceiveThoughts/>
 				<ateThoughtSpecific/>
 				<replacerList/>
 			</thoughtSettings>
+
 			<raceRestriction>
 			</raceRestriction>
 
@@ -474,15 +459,6 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 			<bloodDef>Filth_BloodInsect</bloodDef>
 			<useMeatFrom>Megaspider</useMeatFrom>
 			<leatherDef>Leather_Human</leatherDef>
-			<!-- leather should not be -->
-			<!-- <useLeatherFrom>GrizzlyBear</useLeatherFrom> -->
-			<!-- B19
-	<leatherCommonalityFactor>0.01</leatherCommonalityFactor>
-	<leatherColor>(32,240,32)</leatherColor>
-	<leatherInsulation>0.70</leatherInsulation>
-	<leatherLabel>Mantis leather</leatherLabel>
-	<leatherMarketValueFactor>2</leatherMarketValueFactor>
-	-->
 
 			<nameCategory>HumanStandard</nameCategory>
 
@@ -492,10 +468,9 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 			<baseHungerRate>1.0</baseHungerRate>
 			<!-- carnivores ?-->
 			<foodType>OmnivoreHuman</foodType>
-			<!-- nuzzle ?
-    <nuzzleMtbHours>3</nuzzleMtbHours>-->
 
 			<gestationPeriodDays>45</gestationPeriodDays>
+
 			<litterSizeCurve>
 				<points>
 					<li>(0.5, 0)</li>
@@ -504,6 +479,7 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 					<li>(3.5, 0)</li>
 				</points>
 			</litterSizeCurve>
+
 			<lifeStageAges>
 				<li>
 					<def>HumanlikeBaby</def>
@@ -524,16 +500,19 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 				<li>
 					<def>HumanlikeAdult</def>
 					<minAge>15</minAge>
-					<soundWounded>Pawn_Bear_Injured</soundWounded>
-					<soundDeath>Pawn_Bear_Death</soundDeath>
-					<soundCall>Pawn_Bear_Call</soundCall>
-					<soundAngry>Pawn_Bear_Angry</soundAngry>
+
+					<soundWounded>Pawn_Spelopede_Pain</soundWounded>
+					<soundDeath>Pawn_Spelopede_Death</soundDeath>
+					<soundCall>Pawn_Spelopede_Call</soundCall>
+					<soundAngry>Pawn_Spelopede_Angry</soundAngry>
 				</li>
 
 			</lifeStageAges>
+
 			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+
 			<ageGenerationCurve>
 				<points>
 					<li>(14,0)</li>
@@ -546,47 +525,12 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 					<li>(100,0)</li>
 				</points>
 			</ageGenerationCurve>
+
 			<hediffGiverSets>
 				<li>OrganicStandard</li>
-				<!-- TODO -->
+				<li>Human</li>
 			</hediffGiverSets>
 		</race>
-		<recipes>
-			<li>LTF_InstallLeftSteelClaws</li>
-			<li>LTF_InstallRightSteelClaws</li>	
-			<li>LTF_InstallLeftPlasteelClaws</li>
-			<li>LTF_InstallRightPlasteelClaws</li>	
-			<!-- -->
-			<li>InstallArchotechEye</li>
-			<li>InstallArchotechArm</li>
-			<li>InstallArchotechLeg</li>
-			<li>InstallPowerClaw</li>
-			<li>InstallBionicEye</li>
-			<li>InstallBionicArm</li>
-			<li>InstallBionicLeg</li>
-			<li>InstallBionicSpine</li>
-			<li>InstallBionicHeart</li>
-			<li>InstallBionicStomach</li>
-			<li>InstallBionicEar</li>
-			<li>InstallSimpleProstheticArm</li>
-			<li>InstallSimpleProstheticLeg</li>
-			<li>InstallSimpleProstheticHeart</li>
-			<li>InstallCochlearImplant</li>
-			<li>InstallPegLeg</li>
-			<li>InstallWoodenFoot</li>
-			<li>InstallDenture</li>
-			<li>InstallJoywire</li>
-			<li>InstallPainstopper</li>
-			<li>InstallNaturalHeart</li>
-			<li>InstallNaturalLung</li>
-			<li>InstallNaturalKidney</li>
-			<li>InstallNaturalLiver</li>
-			<li>ExciseCarcinoma</li>
-			<li>AdministerMechSerumHealer</li>
-			<li>RemoveBodyPart</li>
-			<li>Euthanize</li>
-			<li>Anesthetize</li>
-		</recipes>
 
 	</AlienRace.ThingDef_AlienRace>
 </Defs>

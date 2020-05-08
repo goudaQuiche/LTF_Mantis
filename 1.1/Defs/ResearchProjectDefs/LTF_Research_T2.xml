@@ -3,10 +3,11 @@
 <Defs>
 	<ResearchProjectDef>
 		<defName>LTF_Research_MantisBladeT2</defName>
+		
 		<label>Mantis sharpen</label>
 		<description>Plasteel and Mantis claws synergize unexpectedly well.
 
-Required to craft and install synthetic claws.
+Required to craft and install synthetic plasteel claws.
 
 [ElectricSmithy]
 [FueledSmithy]
@@ -17,10 +18,12 @@ Required to craft and install synthetic claws.
 		<baseCost>2000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<tab>LTF_MantisRace</tab>
+		
 		<prerequisites>
-			<li>LTF_Research_MantisBladeT0</li>
+			<li>LTF_Research_MantisBladeT1</li>
 			<li>LongBlades</li>
 		</prerequisites>
+		
 		<researchViewX>2</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>

@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<RecipeDef Name="LTF_InstallPlasteelClaws" ParentName="LTF_InstallSyntClaws" Abstract="true">
-		<label>install plasteel claws</label>
-
-		<descriptionHyperlinks>
-			<ThingDef>LTF_RightPlasteelClaws</ThingDef>
-			<ThingDef>LTF_LeftPlasteelClaws</ThingDef>
-
-			<HediffDef>Hediff_LTF_LeftPlasteelClaws</HediffDef>
-			<HediffDef>Hediff_LTF_RightPlasteelClaws</HediffDef>
-
-			<ResearchProjectDef>LTF_Research_MantisBladeT2</ResearchProjectDef>
-		</descriptionHyperlinks>
-
-		<researchPrerequisite>LTF_Research_MantisBladeT2</researchPrerequisite>
-	</RecipeDef>
-
 	<!-- right -->
 	<RecipeDef ParentName="LTF_InstallPlasteelClaws">
 		<defName>LTF_InstallRightPlasteelClaws</defName>

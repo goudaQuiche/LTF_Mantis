@@ -1,52 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<RecipeDef Name="LTF_InstallWoodenClaws" ParentName="LTF_InstallSyntClaws" Abstract="true">
-		<label>install wooden claws</label>
-		
+	<RecipeDef Name="LTF_InstallWoodenClaws" ParentName="LTF_InstallWoodenArtificials" Abstract="true">
 		<descriptionHyperlinks>
 			<HediffDef>Hediff_LTF_WoodenClaws</HediffDef>
-			<thingDef>WoodLog</thingDef>
-			<ResearchProjectDef>LTF_Research_MantisBladeT0</ResearchProjectDef>
 		</descriptionHyperlinks>
-		
-		
-		<researchPrerequisite>LTF_Research_MantisBladeT0</researchPrerequisite>
 	</RecipeDef>
 
-	<!-- install right claws -->
+	<!-- install right wood claws -->
 	<RecipeDef ParentName="LTF_InstallWoodenClaws">
 		<defName>LTF_InstallRightWoodenClaws</defName>
-		<label>Install right wooden claw</label>
-		<description>Installs right wooden claws.</description>
-
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>WoodLog</li>
-					</thingDefs>
-				</filter>
-				<count>5</count>
-			</li>
-		</ingredients>
-
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>WoodLog</li>
-			</thingDefs>
-		</fixedIngredientFilter>
+		<description>Installs wooden claws.</description>
+		<label>Install wooden claws</label>
 
 		<appliedOnFixedBodyParts>
 			<li>BodyPart_LTF_RightClaws</li>
@@ -55,44 +20,49 @@
 		<addsHediff>Hediff_LTF_WoodenClaws</addsHediff>
 	</RecipeDef>
 
-	<!-- install left claws -->
+	<!-- install left wood claws -->
 	<RecipeDef ParentName="LTF_InstallWoodenClaws">
 		<defName>LTF_InstallLeftWoodenClaws</defName>
-		<description>Installs left wooden claws.</description>
-		<label>Install left wooden claw</label>
-
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>WoodLog</li>
-					</thingDefs>
-				</filter>
-				<count>5</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>WoodLog</li>
-			</thingDefs>
-		</fixedIngredientFilter>
+		<description>Installs wooden claws.</description>
+		<label>Install wooden claws</label>
 
 		<appliedOnFixedBodyParts>
 			<li>BodyPart_LTF_LeftClaws</li>
 		</appliedOnFixedBodyParts>
 
 		<addsHediff>Hediff_LTF_WoodenClaws</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef Name="LTF_InstallWoodenShields" ParentName="LTF_InstallWoodenArtificials" Abstract="true">
+		<descriptionHyperlinks>
+			<HediffDef>Hediff_LTF_WoodenShields</HediffDef>
+		</descriptionHyperlinks>
+	</RecipeDef>
+
+	<!-- install right wood claws -->
+	<RecipeDef ParentName="LTF_InstallWoodenShields">
+		<defName>LTF_InstallRightWoodenShields</defName>
+		<description>Installs wooden shield.</description>
+		<label>Install wooden shield</label>
+
+		<appliedOnFixedBodyParts>
+			<li>BodyPart_LTF_RightClaws</li>
+		</appliedOnFixedBodyParts>
+
+		<addsHediff>Hediff_LTF_WoodenShields</addsHediff>
+	</RecipeDef>
+
+	<!-- install left wood claws -->
+	<RecipeDef ParentName="LTF_InstallWoodenShields">
+		<defName>LTF_InstallLeftWoodenShields</defName>
+		<description>Installs wooden shield.</description>
+		<label>Install wooden shield</label>
+
+		<appliedOnFixedBodyParts>
+			<li>BodyPart_LTF_LeftClaws</li>
+		</appliedOnFixedBodyParts>
+
+		<addsHediff>Hediff_LTF_WoodenShields</addsHediff>
 	</RecipeDef>
 
 </Defs> 

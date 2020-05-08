@@ -2,7 +2,7 @@
 <Defs>
 	<RecipeDef>
 		<defName>LTF_ButcherClaws</defName>
-		<label>butcher mantis claws</label>
+		<label>butcher natural mantis claws</label>
 		<description>Peel a mantis claw to extract its juicy insect meat.</description>
 
 		<descriptionHyperlinks>
@@ -47,6 +47,6 @@
 			<li>Butchery</li>
 		</specialProducts>
 
-		<researchPrerequisite>LTF_Research_MantisBladeT1</researchPrerequisite>
+		<researchPrerequisite>LTF_Research_MantisBladeT0</researchPrerequisite>
 	</RecipeDef>
 </Defs>

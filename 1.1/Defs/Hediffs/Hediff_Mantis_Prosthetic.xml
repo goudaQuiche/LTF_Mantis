@@ -7,7 +7,7 @@
 			<RecipeDef>LTF_InstallRightSteelClaws</RecipeDef>
 			<RecipeDef>LTF_InstallLeftSteelClaws</RecipeDef>
 
-			<ResearchProjectDef>LTF_Research_MantisBladeT0</ResearchProjectDef>
+			<ResearchProjectDef>LTF_Research_MantisBladeT1</ResearchProjectDef>
 		</descriptionHyperlinks>
 
 		<stages>
@@ -54,12 +54,12 @@
 	<!-- Mantis Claws -->
 	<HediffDef ParentName="Hediff_LTF_SteelClaws">
 		<defName>Hediff_LTF_LeftSteelClaws</defName>
-		<description>Artificial steel claws that make the patient better as a butcher</description>
+		<description>Artificial steel claws that make the patient a butcher better</description>
 		<label>left steel claws</label>
 		<spawnThingOnRemoved>LTF_LeftSteelClaws</spawnThingOnRemoved>
 	</HediffDef>
 	<HediffDef ParentName="Hediff_LTF_SteelClaws">
-		<description>Artificial steel claws that make the patient better as a butcher</description>
+		<description>Artificial steel claws that make the patient a better butcher</description>
 		<defName>Hediff_LTF_RightSteelClaws</defName>
 		<label>right steel claws</label>
 		<spawnThingOnRemoved>LTF_RightSteelClaws</spawnThingOnRemoved>

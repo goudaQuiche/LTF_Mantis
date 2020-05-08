@@ -3,10 +3,11 @@
 <Defs>
 	<ResearchProjectDef>
 		<defName>LTF_Research_MantisBladeT1</defName>
+		
 		<label>Mantis social support</label>
-		<description>In the worst case scenario, Mantis can rely on claws made of steel. That's more like a consolation prize.
+		<description>I have got claws of steel. That's what your mantiss could say.
 
-Required to craft and install synthetic claws.
+Required to craft and install synthetic steel claws.
 
 [ElectricSmithy]
 [FueledSmithy]
@@ -16,9 +17,12 @@ Required to craft and install synthetic claws.
 		<baseCost>1200</baseCost>
 		<techLevel>Industrial</techLevel>
 		<tab>LTF_MantisRace</tab>
+		
 		<prerequisites>
+			<li>LTF_Research_MantisBladeT0</li>
 			<li>Smithing</li>
 		</prerequisites>
+		
 		<researchViewX>1</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>

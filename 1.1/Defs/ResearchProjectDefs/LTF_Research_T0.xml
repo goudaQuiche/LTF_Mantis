@@ -3,10 +3,13 @@
 <Defs>
 	<ResearchProjectDef>
 		<defName>LTF_Research_MantisBladeT0</defName>
+		
 		<label>Mantis basics</label>
 		<description>This constitutes the basic knowledge about mantis.
 
-Required to butcher their natural claws and install wooden claws.
+Required to :
+- Butcher natural claws for insect meat
+- Install wooden claws and wooden shields
 
 [ButcherTable]
 
