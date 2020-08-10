@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Mantis race src</name>
+	<name>Mantis race</name>
 	<author>Gouda quiche</author>
 	<url>https://github.com/goudaQuiche</url>
 	
 	<supportedVersions>
 		<li>1.0</li>
 		<li>1.1</li>
+		<li>1.2</li>
 	</supportedVersions>
-	<packageId>goudaquiche.LtfMantisRace.src</packageId>
+	<packageId>goudaquiche.LtfMantisRace</packageId>
 
 	<modDependencies>
 		<li>
