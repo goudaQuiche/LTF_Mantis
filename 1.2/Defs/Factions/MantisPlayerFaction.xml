@@ -12,7 +12,7 @@
 			<li>(50, 250, 70)</li>
 			<li>(0, 180, 0)</li>
 			<!-- red -->
-			<li>(190, 0, 40)</li>
+			<li>(190, 162, 0)</li>
 		</colorSpectrum>
 	</FactionDef>
 
