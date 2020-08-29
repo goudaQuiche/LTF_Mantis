@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Excluded>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\LTF_Mantis\.git</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\LTF_Mantis\1.1\Defs\RecipeDefs\RecipeEPOEPatch.xml.dis</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\LTF_Mantis\README.md</exclude>
+  </Excluded>
+</Configuration>
