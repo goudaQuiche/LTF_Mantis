@@ -165,6 +165,8 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 					</alienbodytypes>
 
 					<useGenderedHeads>true</useGenderedHeads>
+					<!-- <useGenderedBodies>true</useGenderedBodies> -->
+					
 					<aliencrowntypes>
 						<li>Normal</li>
 					</aliencrowntypes>
@@ -177,7 +179,7 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 							<bodyPart>BodyPart_LTF_LeftClaws</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
 							<!-- <useSkinColor>false</useSkinColor> -->
-							<colorChannel>base</colorChannel>
+							<colorChannel>skin</colorChannel>
 							<offsets>
 								<!-- seen right --> 
 								<south>
@@ -224,7 +226,7 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 							<bodyPart>BodyPart_LTF_RightClaws</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
 							<!-- <useSkinColor>false</useSkinColor> -->
-							<colorChannel>base</colorChannel>
+							<colorChannel>skin</colorChannel>
 							<offsets>
 								<!-- seen left -->
 								<south>
@@ -265,6 +267,95 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 								<Hediff_LTF_RightPlasteelClaws>Mantis/SyntClaws/Right/Right</Hediff_LTF_RightPlasteelClaws>
 							</hediffGraphics>
 						</li>
+												<!-- Left antenna-->
+						<li>
+							<path>Mantis/Antenna/Left/Antenna_left</path>
+							<bodyPart>left antenna</bodyPart>
+							<inFrontOfBody>true</inFrontOfBody>
+							<colorChannel>skin</colorChannel>
+							<offsets>
+								<!-- south -->
+								<south>
+									<bodyTypes>
+										<Male>(-.07,	.6)</Male>
+										<Female>(-.07,	.6)</Female>
+										<Thin>(-.07,	.6)</Thin>
+										<Hulk>(-.07,	.6)</Hulk>
+										<Fat>(-.07,		.6)</Fat>
+									</bodyTypes>
+								</south>
+								<!-- east -->
+								<east>
+									<bodyTypes>
+										<Male>(-.82,	.57)</Male>
+										<Female>(-.82,	.57)</Female>
+										<Thin>(-.86,	.57)</Thin>
+										<Hulk>(-.86,	.57)</Hulk>
+										<Fat>(-.86,		.57)</Fat>
+									</bodyTypes>
+								</east>
+								<!-- north -->
+								<north>
+									<bodyTypes>
+										<Male>(-.35,	.9)</Male>
+										<Female>(-.35,	.9)</Female>
+										<Thin>(-.35,	.9)</Thin>
+										<Hulk>(-.35,	.9)</Hulk>
+										<Fat>(-.35,	.9)</Fat>
+									</bodyTypes>
+								</north>
+							</offsets>
+							<!--
+							<hediffGraphics>
+							</hediffGraphics>
+							-->
+						</li>
+						<!-- Right antenna-->
+						<li>
+							<path>Mantis/Antenna/Right/Antenna_right</path>
+							<bodyPart>right antenna</bodyPart>
+							<inFrontOfBody>true</inFrontOfBody>
+							<colorChannel>skin</colorChannel>
+							<!-- <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious> -->
+							<offsets>
+								<!-- south -->
+								<south>
+									<bodyTypes>
+										<Male>(-.77,	.6)</Male>
+										<Female>(-.77,	.6)</Female>
+										<Thin>(-.77,	.6)</Thin>
+										<Hulk>(-.77,	.6)</Hulk>
+										<Fat>(-.77,		.6)</Fat>
+									</bodyTypes>
+								</south>
+								<!-- east -->
+								<east>
+									<bodyTypes>
+										<Male>(-.82,	.57)</Male>
+										<Female>(-.82,	.57)</Female>
+										<Thin>(-.86,	.57)</Thin>
+										<Hulk>(-.86,	.57)</Hulk>
+										<Fat>(-.86,		.57)</Fat>
+									</bodyTypes>
+								</east>
+								<!-- north-->
+								<north>
+									<bodyTypes>
+										<Male>(.35,	.9)</Male>
+										<Female>(.35,	.9)</Female>
+										<Thin>(.35,	.9)</Thin>
+										<Hulk>(.35,	.9)</Hulk>
+										<Fat>(.35,	.9)</Fat>
+									</bodyTypes>
+								</north>
+							</offsets>
+
+							<!--
+							<hediffGraphics>
+							</hediffGraphics>
+							-->
+						</li>
+						
 						<!-- MantisStache-->
 						<li>
 							<path>Mantis/Stache/stache</path>
@@ -273,27 +364,25 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 							<!-- <useSkinColor>true</useSkinColor> -->
 							<colorChannel>skin</colorChannel>
 							<offsets>
-								<!-- front -->
 								<south>
 									<bodyTypes>
-										<Male>(-.42,	.5)</Male>
-										<Female>(-.42,	.5)</Female>
-										<Thin>(-.42,	.5)</Thin>
-										<Hulk>(-.42,	.5)</Hulk>
-										<Fat>(-.42,	.5)</Fat>
+										<Male>(-.42,	.57)</Male>
+										<Female>(-.42,	.57)</Female>
+										<Thin>(-.42,	.57)</Thin>
+										<Hulk>(-.42,	.57)</Hulk>
+										<Fat>(-.42,	.57)</Fat>
 									</bodyTypes>
 								</south>
-								<!-- side -->
 								<east>
 									<bodyTypes>
 										<Male>(-.42,	.5)</Male>
 										<Female>(-.48,	.5)</Female>
 										<Thin>(-.48,	.5)</Thin>
-										<Hulk>(-.42,	.5)</Hulk>
-										<Fat>(-.42,	.5)</Fat>
+										<Hulk>(-.52,	.5)</Hulk>
+										<Fat>(-.46,	.5)</Fat>
 									</bodyTypes>
 								</east>
-								<!-- back -->
+
 								<north>
 									<bodyTypes>
 										<Male>(0,	.85)</Male>
@@ -335,23 +424,23 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 									<!-- green -->
 									<li>
 										<weight>16</weight>
-										<only>RGBA(.9, 1, .8, 1)</only>
+										<only>RGBA(.1, 1, .2, 1)</only>
 									</li>
 									<li>
 										<weight>10</weight>
-										<only>RGBA(.7, 1, .8, 1)</only>
+										<only>RGBA(.3, 1, .2, 1)</only>
 									</li>
 									<li>
 										<weight>6</weight>
-										<only>RGBA(.7, 1, .6, 1)</only>
+										<only>RGBA(.3, 1, .4, 1)</only>
 									</li>
 									<li>
 										<weight>4</weight>
-										<only>RGBA(.5, 1, .6, 1)</only>
+										<only>RGBA(.5, 1, .4, 1)</only>
 									</li>
 									<li>
 										<weight>2</weight>
-										<only>RGBA(.5, 1, .4, 1)</only>
+										<only>RGBA(.5, 1, .6, 1)</only>
 									</li>
 									<!-- blue -->
 									<li>
@@ -397,6 +486,60 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 									</li>
 								</options>
 							</first>
+							<second Class="ColorGenerator_Options">
+								<options>
+									<!-- brown -->
+									<li>
+										<weight>10</weight>
+										<only>(.9, .8, .5)</only>
+									</li>
+									<li>
+										<weight>8</weight>
+										<only>(.8, .5, .3)</only>
+									</li>
+									<li>
+										<weight>5</weight>
+										<only>(.8, .4, .15)</only>
+									</li>
+									<li>
+										<weight>3</weight>
+										<only>(.55, .25, .08)</only>
+									</li>
+									<li>
+										<weight>2</weight>
+										<only>(.6, .35, .2)</only>
+									</li>
+									<li>
+										<weight>2</weight>
+										<only>(.6, .2, .2)</only>
+									</li>
+									<li>
+										<weight>2</weight>
+										<only>(.5, 0, 0)</only>
+									</li>
+									<!-- red -->
+									<li>
+										<weight>1</weight>
+										<only>(1, .9, .8)</only>
+									</li>
+									<li>
+										<weight>2</weight>
+										<only>(1, .7, .6)</only>
+									</li>
+									<li>
+										<weight>3</weight>
+										<only>(1, .6, .5)</only>
+									</li>
+									<li>
+										<weight>3</weight>
+										<only>(1, .5, .4)</only>
+									</li>
+									<li>
+										<weight>5</weight>
+										<only>(1, .4, .3)</only>
+									</li>
+								</options>
+							</second>
 						</li>
 						<li>
 							<name>hair</name>
