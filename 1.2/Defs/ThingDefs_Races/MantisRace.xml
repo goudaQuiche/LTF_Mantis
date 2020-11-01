@@ -316,7 +316,7 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 							<bodyPart>right antenna</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
-							<!-- <linkVariantIndexWithPrepurplevious>true</linkVariantIndexWithPrevious> -->
+							<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
 							<offsets>
 								<!-- south -->
 								<south>
