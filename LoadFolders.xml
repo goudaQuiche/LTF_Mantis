@@ -4,15 +4,16 @@
 		<li>Common</li>
 		<li>1.0</li>
 	</v1.0>
-	
+
 	<v1.1>
 		<li>Common</li>
 		<li>1.1</li>
 	</v1.1>
-	
+
 	<v1.2>
 		<li>Common</li>
 		<li>1.2</li>
+		<li IfModActive="goudaquiche.BloodAndStains">BnS_Patch</li>
 	</v1.2>
-	
+
 </loadFolders>

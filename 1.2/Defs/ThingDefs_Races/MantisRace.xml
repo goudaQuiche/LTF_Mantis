@@ -403,7 +403,7 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 						</li>
 						<!-- Eyes -->
 						<li>
-						<!-- Left eye -->
+							<!-- Left eye -->
 							<path>Mantis/Eye/LeftEye</path>
 							<bodyPart>left eye</bodyPart>
 
@@ -473,7 +473,7 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 
 							<colorChannel>skin</colorChannel>
 							<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
-							
+
 							<offsets>
 								<!-- south -->
 								<south>
@@ -696,6 +696,9 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 							<first Class="AlienRace.ColorGenerator_CustomAlienChannel">
 								<colorChannel>skin_1</colorChannel>
 							</first>
+							<second Class="AlienRace.ColorGenerator_CustomAlienChannel">
+								<colorChannel>skin_2</colorChannel>
+							</second>
 						</li>
 					</colorChannels>
 				</alienPartGenerator>
@@ -740,9 +743,27 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 			</relationSettings>
 
 			<thoughtSettings>
-				<cannotReceiveThoughts/>
-				<ateThoughtSpecific/>
-				<replacerList/>
+				<cannotReceiveThoughts>
+					<li>AteHumanlikeMeatDirect</li>
+					<li>AteHumanlikeMeatAsIngredient</li>
+					<li>AteInsectMeatDirect</li>
+					<li>AteInsectMeatAsIngredient</li>
+				</cannotReceiveThoughts>
+
+				<butcherThoughtGeneral>
+					<thought>LTF_Mantis_ButcheredHumanlikeCorpse</thought>
+					<knowThought>LTF_Mantis_KnowButcheredHumanlikeCorpse</knowThought>
+				</butcherThoughtGeneral>
+
+				<butcherThoughtSpecific>
+					<li>
+						<raceList>
+							<li>Alien_Mantis</li>
+						</raceList>
+						<thought>ButcheredMantisCorpse</thought>
+						<knowThought>KnowButcheredMantisCorpse</knowThought>
+					</li>
+				</butcherThoughtSpecific>
 			</thoughtSettings>
 
 			<raceRestriction>
@@ -761,7 +782,12 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 
 			<bloodDef>Filth_BloodInsect</bloodDef>
 			<useMeatFrom>Megaspider</useMeatFrom>
+
+			<fleshType>Insectoid</fleshType>
+			<meatColor>(160,168,139)</meatColor>
+
 			<leatherDef>Leather_Human</leatherDef>
+
 
 			<nameCategory>HumanStandard</nameCategory>
 

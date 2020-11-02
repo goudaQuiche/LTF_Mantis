@@ -101,7 +101,7 @@
 		</comps>
 
 		<addedPartProps>
-			<partEfficiency>.65</partEfficiency>
+			<partEfficiency>.45</partEfficiency>
 		</addedPartProps>
 
 		<priceImpact>false</priceImpact>

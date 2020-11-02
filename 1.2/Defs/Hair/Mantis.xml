@@ -69,4 +69,41 @@
 			<li>Mantis</li>
 		</hairTags>
 	</HairDef>
+
+	<HairDef>
+		<defName>LeafFemale</defName>
+		<label>leaffemale</label>
+		<hairGender>Female</hairGender>
+		<texPath>Hair/Mantis/Female/leaf</texPath>
+		<hairTags>
+			<li>LTF_Mantis</li>
+			<li>MantisHair</li>
+			<li>Mantis</li>
+		</hairTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Leaf2Female</defName>
+		<label>leaf2female</label>
+		<hairGender>Female</hairGender>
+		<texPath>Hair/Mantis/Female/leaf2</texPath>
+		<hairTags>
+			<li>LTF_Mantis</li>
+			<li>MantisHair</li>
+			<li>Mantis</li>
+		</hairTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>TentaCrownFemale</defName>
+		<label>tentacrownfemale</label>
+		<hairGender>Female</hairGender>
+		<texPath>Hair/Mantis/Female/tentacrown</texPath>
+		<hairTags>
+			<li>LTF_Mantis</li>
+			<li>MantisHair</li>
+			<li>Mantis</li>
+		</hairTags>
+	</HairDef>
+
 </Defs>
