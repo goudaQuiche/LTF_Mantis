@@ -58,14 +58,14 @@
 		<defName>LTF_RightPlasteelClaws</defName>
 		<label>plasteel claws(right)</label>
 		<graphicData>
-			<texPath>Mantis/SyntClaws/Right</texPath>
+			<texPath>Mantis/Prosthetics/SyntClaws/SyntClawItemRight</texPath>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="LTF_PlasteelClaws">
 		<defName>LTF_LeftPlasteelClaws</defName>
 		<label>plasteel claws(left)</label>
 		<graphicData>
-			<texPath>Mantis/SyntClaws/Left</texPath>
+			<texPath>Mantis/Prosthetics/SyntClaws/SyntClawItemLeft</texPath>
 		</graphicData>
 	</ThingDef>
 

@@ -66,14 +66,14 @@ There must be a better solution.</description>
 		<defName>LTF_RightSteelClaws</defName>
 		<label>steel claws(right)</label>
 		<graphicData>
-			<texPath>Mantis/SyntClaws/Right</texPath>
+			<texPath>Mantis/Prosthetics/SyntClaws/SyntClawItemRight</texPath>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="LTF_SteelClaws">
 		<defName>LTF_LeftSteelClaws</defName>
 		<label>steel claws(left)</label>
 		<graphicData>
-			<texPath>Mantis/SyntClaws/Left</texPath>
+			<texPath>Mantis/Prosthetics/SyntClaws/SyntClawItemLeft</texPath>
 		</graphicData>
 	</ThingDef>
 

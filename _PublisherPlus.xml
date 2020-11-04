@@ -2,6 +2,9 @@
 <Configuration>
   <Excluded>
     <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\LTF_Mantis\.git</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\LTF_Mantis\1.0\Defs\BackstoryDefs\bsTemplate.xml.txt</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\LTF_Mantis\1.0\Defs\Hediffs\template.txt</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\LTF_Mantis\1.0\Defs\RecipeDefs\Mantis_Recipies_Craft.xml.dis</exclude>
     <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\LTF_Mantis\1.1\Defs\RecipeDefs\RecipeEPOEPatch.xml.dis</exclude>
     <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\LTF_Mantis\README.md</exclude>
   </Excluded>

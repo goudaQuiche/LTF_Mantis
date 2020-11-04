@@ -3,7 +3,7 @@
 	<name>Mantis race</name>
 	<author>Gouda quiche</author>
 	<url>https://github.com/goudaQuiche</url>
-	
+
 	<supportedVersions>
 		<li>1.0</li>
 		<li>1.1</li>
@@ -25,11 +25,8 @@
 
 	<loadAfter>
 		<li>erdelf.HumanoidAlienRaces</li>
+		<li>goudaquiche.BloodAndStains</li>
 	</loadAfter>
-
-	<loadBefore>
-		<li>goudaquiche.LtfMantisBloodAndStains</li>
-	</loadBefore>
 
 	<description>Adds the mantis race from Faster Than Light.
 
@@ -54,22 +51,16 @@ While Mantis excel at combat, especially personal combat, they are the least ade
  - 75% Construction / 75% Drug production
  - 85% Mining / 90% Smelting Smithing Tailoring
 
+Compatible with:
+ - Blood and stains
+
 Dependencies:
  - Humanoid Alien Races 2.0
 
 Thanks to:
  - Erdelf, creator of Humanoid alien races
  - Lilairen, words enhancer, for fixing all my typos and making proper english out of word mud
- - Moronic, talented drawer, for upragding the textures quality
- - Sera, Apini mod creator, for allowing me to use her sprites.
-
-Discussion thread:
-	- https://ludeon.com/forums/index.php?topic=37908.0
-
-More Faster Than Light in RimWorld:
-	- Beam me up Scotty(Teleporter)
-	- Clone Bay
-	- Crystal
-	- Lanius
-	</description>
+ - Moronic, talented drawer, for upgrading the textures quality
+ - Sera, Apini mod creator, for allowing me to use her sprites
+ - Shauaputa, talented drawer, for upgrading the textures quality and his constant support</description>
 </ModMetaData>

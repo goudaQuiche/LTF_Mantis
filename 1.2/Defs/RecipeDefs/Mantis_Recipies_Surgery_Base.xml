@@ -86,11 +86,66 @@
 			<ThingDef>LTF_RightPlasteelClaws</ThingDef>
 			<ThingDef>LTF_LeftPlasteelClaws</ThingDef>
 
+			<!-- <ResearchProjectDef>LTF_Research_MantisBladeT2</ResearchProjectDef> -->
+
 			<HediffDef>Hediff_LTF_LeftPlasteelClaws</HediffDef>
 			<HediffDef>Hediff_LTF_RightPlasteelClaws</HediffDef>
 		</descriptionHyperlinks>
 
 		<researchPrerequisite>LTF_Research_MantisBladeT2</researchPrerequisite>
+		
+		<skillRequirements>
+			<Medicine>7</Medicine>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef Name="LTF_InstallOverClaws" ParentName="LTF_InstallSyntClaws" Abstract="true">
+		<label>install overclaws</label>
+		<jobString>Installing synthetic overclaws</jobString>
+
+		<descriptionHyperlinks>
+			<thingDef>LTF_LeftPlasteelClaws</thingDef>
+			<thingDef>LTF_RightPlasteelClaws</thingDef>
+			<thingDef>Meat_Megaspider</thingDef>
+			<thingDef>MeleeWeapon_LongSword</thingDef>
+
+			<ResearchProjectDef>LTF_Research_MantisBladeT3</ResearchProjectDef>
+
+			<HediffDef>Hediff_LTF_LeftOverClaws</HediffDef>
+			<HediffDef>Hediff_LTF_RightOverClaws</HediffDef>
+		</descriptionHyperlinks>
+
+		<researchPrerequisite>LTF_Research_MantisBladeT3</researchPrerequisite>
+		
+		<skillRequirements>
+			<Medicine>9</Medicine>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef Name="LTF_InstallToxiClaws" ParentName="LTF_InstallSyntClaws" Abstract="true">
+		<label>install toxiclaws</label>
+		<jobString>Installing synthetic toxiclaws</jobString>
+
+		<descriptionHyperlinks>
+			<thingDef>LTF_LeftPlasteelClaws</thingDef>
+			<thingDef>LTF_RightPlasteelClaws</thingDef>
+			<thingDef>Chemfuel</thingDef>
+			<thingDef>Meat_Megaspider</thingDef>
+			<thingDef>MeleeWeapon_Knife</thingDef>
+
+			<ResearchProjectDef>LTF_Research_MantisBladeT3</ResearchProjectDef>
+
+			<HediffDef>Hediff_LTF_LeftToxiClaws</HediffDef>
+			<HediffDef>Hediff_LTF_RightToxiClaws</HediffDef>
+		</descriptionHyperlinks>
+
+		<researchPrerequisite>LTF_Research_MantisBladeT3</researchPrerequisite>
+		
+		<skillRequirements>
+			<Medicine>8</Medicine>
+			<Crafting>5</Crafting>
+		</skillRequirements>
 	</RecipeDef>
 
 </Defs> 

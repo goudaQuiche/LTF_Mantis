@@ -87,6 +87,14 @@
 						</capacities>
 						<power>7</power>
 						<cooldownTime>2</cooldownTime>
+						<surpriseAttack>
+							<extraMeleeDamages>
+								<li>
+									<def>Stun</def>
+									<amount>5</amount>
+								</li>
+							</extraMeleeDamages>
+						</surpriseAttack>
 					</li>
 					<li>
 						<label>corner</label>

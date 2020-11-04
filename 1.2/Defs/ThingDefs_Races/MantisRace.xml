@@ -175,7 +175,7 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 					<bodyAddons>
 						<!-- Left claw-->
 						<li>
-							<path>Mantis/Claws/Left/Left</path>
+							<path>Mantis/Claws/NaturalClawLeft</path>
 							<bodyPart>BodyPart_LTF_LeftClaws</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
 							<!-- <useSkinColor>false</useSkinColor> -->
@@ -214,15 +214,19 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 							</offsets>
 
 							<hediffGraphics>
-								<Hediff_LTF_WoodenShields>Mantis/WoodenShields/Left/Left</Hediff_LTF_WoodenShields>
-								<Hediff_LTF_WoodenClaws>Mantis/WoodenClaws/Left/Left</Hediff_LTF_WoodenClaws>
-								<Hediff_LTF_LeftSteelClaws>Mantis/SyntClaws/Left/Left</Hediff_LTF_LeftSteelClaws>
-								<Hediff_LTF_LeftPlasteelClaws>Mantis/SyntClaws/Left/Left</Hediff_LTF_LeftPlasteelClaws>
+								<Hediff_LTF_WoodenShields>Mantis/Prosthetics/WoodenShields/WoodenShieldLeft</Hediff_LTF_WoodenShields>
+								<Hediff_LTF_WoodenClaws>Mantis/Prosthetics/WoodenClaws/WoodenClawLeft</Hediff_LTF_WoodenClaws>
+								
+								<Hediff_LTF_LeftSteelClaws>Mantis/Prosthetics/SyntClaws/SyntClawLeft</Hediff_LTF_LeftSteelClaws>
+								<Hediff_LTF_LeftPlasteelClaws>Mantis/Prosthetics/SyntClaws/SyntClawLeft</Hediff_LTF_LeftPlasteelClaws>
+								
+								<Hediff_LTF_LeftOverClaws>Mantis/Prosthetics/OverClaws/OverClawLeft</Hediff_LTF_LeftOverClaws>
+								<Hediff_LTF_LeftToxiClaws>Mantis/Prosthetics/ToxiClaws/ToxiClawLeft</Hediff_LTF_LeftToxiClaws>
 							</hediffGraphics>
 						</li>
 						<!-- Right claw-->
 						<li>
-							<path>Mantis/Claws/Right/Right</path>
+							<path>Mantis/Claws/NaturalClawRight</path>
 							<bodyPart>BodyPart_LTF_RightClaws</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
 							<!-- <useSkinColor>false</useSkinColor> -->
@@ -261,10 +265,14 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 							</offsets>
 
 							<hediffGraphics>
-								<Hediff_LTF_WoodenShields>Mantis/WoodenShields/Right/Right</Hediff_LTF_WoodenShields>
-								<Hediff_LTF_WoodenClaws>Mantis/WoodenClaws/Right/Right</Hediff_LTF_WoodenClaws>
-								<Hediff_LTF_RightSteelClaws>Mantis/SyntClaws/Right/Right</Hediff_LTF_RightSteelClaws>
-								<Hediff_LTF_RightPlasteelClaws>Mantis/SyntClaws/Right/Right</Hediff_LTF_RightPlasteelClaws>
+								<Hediff_LTF_WoodenShields>Mantis/Prosthetics/WoodenShields/WoodenShieldRight</Hediff_LTF_WoodenShields>
+								<Hediff_LTF_WoodenClaws>Mantis/Prosthetics/WoodenClaws/WoodenClawRight</Hediff_LTF_WoodenClaws>
+								
+								<Hediff_LTF_RightSteelClaws>Mantis/Prosthetics/SyntClaws/SyntClawRight</Hediff_LTF_RightSteelClaws>
+								<Hediff_LTF_RightPlasteelClaws>Mantis/Prosthetics/SyntClaws/SyntClawRight</Hediff_LTF_RightPlasteelClaws>
+								
+								<Hediff_LTF_RightOverClaws>Mantis/Prosthetics/OverClaws/OverClawRight</Hediff_LTF_RightOverClaws>
+								<Hediff_LTF_RightToxiClaws>Mantis/Prosthetics/ToxiClaws/ToxiClawRight</Hediff_LTF_RightToxiClaws>
 							</hediffGraphics>
 						</li>
 						<!-- Left antenna-->

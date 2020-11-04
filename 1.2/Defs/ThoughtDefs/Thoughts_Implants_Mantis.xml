@@ -4,7 +4,7 @@
 	<!-- Base -->
 	<ThoughtDef Name="LTF_ArtificialThought"  Abstract="true">
 		<defName>LTF_ArtificialThought</defName>
-		
+
 		<workerClass>ThoughtWorker_Hediff</workerClass>
 		<validWhileDespawned>true</validWhileDespawned>
 	</ThoughtDef>
@@ -20,6 +20,10 @@
 				<baseMoodEffect>-2</baseMoodEffect>
 			</li>
 		</stages>
+
+		<nullifyingTraits>
+			<li>Wimp</li>
+		</nullifyingTraits>
 	</ThoughtDef>
 
 	<ThoughtDef ParentName="LTF_ArtificialThought" >
@@ -32,8 +36,12 @@
 				<baseMoodEffect>-2</baseMoodEffect>
 			</li>
 		</stages>
+
+		<nullifyingTraits>
+			<li>Wimp</li>
+		</nullifyingTraits>
 	</ThoughtDef>
-	
+
 	<!-- Steel -->
 	<ThoughtDef ParentName="LTF_ArtificialThought" >
 		<defName>LTF_LeftSteelClawsThought</defName>
@@ -45,6 +53,10 @@
 				<baseMoodEffect>-1</baseMoodEffect>
 			</li>
 		</stages>
+
+		<nullifyingTraits>
+			<li>Wimp</li>
+		</nullifyingTraits>
 	</ThoughtDef>
 
 	<ThoughtDef ParentName="LTF_ArtificialThought" >
@@ -57,6 +69,10 @@
 				<baseMoodEffect>-1</baseMoodEffect>
 			</li>
 		</stages>
+
+		<nullifyingTraits>
+			<li>Wimp</li>
+		</nullifyingTraits>
 	</ThoughtDef>
 
 	<!-- Plasteel -->
@@ -70,6 +86,10 @@
 				<baseMoodEffect>2</baseMoodEffect>
 			</li>
 		</stages>
+		
+		<nullifyingTraits>
+			<li>BodyPurist</li>
+		</nullifyingTraits>
 	</ThoughtDef>
 
 	<ThoughtDef ParentName="LTF_ArtificialThought" >
@@ -82,6 +102,73 @@
 				<baseMoodEffect>2</baseMoodEffect>
 			</li>
 		</stages>
+		
+		<nullifyingTraits>
+			<li>BodyPurist</li>
+		</nullifyingTraits>
+	</ThoughtDef>
+	
+	<ThoughtDef ParentName="LTF_ArtificialThought" >
+		<defName>LTF_RightOverClawsThought</defName>
+		<hediff>Hediff_LTF_RightOverClaws</hediff>
+		<stages>
+			<li>
+				<label>overclaw(right)</label>
+				<description>I feel so sharp, nobody should disagree with me... For their own good.</description>			
+				<baseMoodEffect>4</baseMoodEffect>
+			</li>
+		</stages>
+		
+		<nullifyingTraits>
+			<li>BodyPurist</li>
+		</nullifyingTraits>
+	</ThoughtDef>
+	
+	<ThoughtDef ParentName="LTF_ArtificialThought" >
+		<defName>LTF_LeftOverClawsThought</defName>
+		<hediff>Hediff_LTF_LeftOverClaws</hediff>
+		<stages>
+			<li>
+				<label>overclaw(left)</label>
+				<description>There is not a stronger and better weapon as truth. Except for my left claw.</description>			
+				<baseMoodEffect>4</baseMoodEffect>
+			</li>
+		</stages>
+		
+		<nullifyingTraits>
+			<li>BodyPurist</li>
+		</nullifyingTraits>
 	</ThoughtDef>
 
+	<ThoughtDef ParentName="LTF_ArtificialThought" >
+		<defName>LTF_RightToxiClawsThought</defName>
+		<hediff>Hediff_LTF_RightToxiClaws</hediff>
+		<stages>
+			<li>
+				<label>toxiclaw(right)</label>
+				<description>Toxic people spread their toxin to me and then I, in turn, became a wasteland like they are.</description>			
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+		</stages>
+		
+		<nullifyingTraits>
+			<li>BodyPurist</li>
+		</nullifyingTraits>
+	</ThoughtDef>
+	
+	<ThoughtDef ParentName="LTF_ArtificialThought" >
+		<defName>LTF_LeftToxiClawsThought</defName>
+		<hediff>Hediff_LTF_LeftToxiClaws</hediff>
+		<stages>
+			<li>
+				<label>toxiclaw(left)</label>
+				<description>I won’t ever have to feel guilty again about removing toxic people from my life.</description>			
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+		</stages>
+		
+		<nullifyingTraits>
+			<li>BodyPurist</li>
+		</nullifyingTraits>
+	</ThoughtDef>
 </Defs>

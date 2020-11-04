@@ -2,10 +2,10 @@
 <Defs>
 
 	<!-- right -->
-	<RecipeDef ParentName="LTF_InstallPlasteelClaws">
-		<defName>LTF_InstallRightPlasteelClaws</defName>
-		<label>install plasteel claws</label>
-		<description>Installs right plasteel claws.</description>
+	<RecipeDef ParentName="LTF_InstallOverClaws">
+		<defName>LTF_InstallRightOverClaws</defName>
+		<label>install Overclaws</label>
+		<description>Installs right Overclaws.</description>
 
 		<ingredients>
 			<li>
@@ -24,14 +24,33 @@
 				</filter>
 				<count>1</count>
 			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Meat_Megaspider</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MeleeWeapon_LongSword</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
 		</ingredients>
 
 		<fixedIngredientFilter>
 			<categories>
 				<li>Medicine</li>
 			</categories>
+
 			<thingDefs>
 				<li>LTF_RightPlasteelClaws</li>
+				<li>Meat_Megaspider</li>
+				<li>MeleeWeapon_LongSword</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 
@@ -39,13 +58,14 @@
 			<li>BodyPart_LTF_RightClaws</li>
 		</appliedOnFixedBodyParts>
 
-		<addsHediff>Hediff_LTF_RightPlasteelClaws</addsHediff>
+		<addsHediff>Hediff_LTF_RightOverClaws</addsHediff>
 	</RecipeDef>
+
 	<!-- left -->
-	<RecipeDef ParentName="LTF_InstallPlasteelClaws">
-		<defName>LTF_InstallLeftPlasteelClaws</defName>
-		<label>install plasteel claws</label>
-		<description>Installs left plasteel claws.</description>
+	<RecipeDef ParentName="LTF_InstallOverClaws">
+		<defName>LTF_InstallLeftOverClaws</defName>
+		<label>install Overclaws</label>
+		<description>Installs left Overclaws.</description>
 
 		<ingredients>
 			<li>
@@ -64,14 +84,33 @@
 				</filter>
 				<count>1</count>
 			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Meat_Megaspider</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MeleeWeapon_LongSword</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
 		</ingredients>
 
 		<fixedIngredientFilter>
 			<categories>
 				<li>Medicine</li>
 			</categories>
+
 			<thingDefs>
 				<li>LTF_LeftPlasteelClaws</li>
+				<li>Meat_Megaspider</li>
+				<li>MeleeWeapon_LongSword</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 
@@ -79,7 +118,7 @@
 			<li>BodyPart_LTF_LeftClaws</li>
 		</appliedOnFixedBodyParts>
 
-		<addsHediff>Hediff_LTF_LeftPlasteelClaws</addsHediff>
+		<addsHediff>Hediff_LTF_LeftOverClaws</addsHediff>
 	</RecipeDef>
 
 </Defs> 
