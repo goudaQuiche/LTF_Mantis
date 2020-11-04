@@ -171,4 +171,25 @@
 			<li>BodyPurist</li>
 		</nullifyingTraits>
 	</ThoughtDef>
+	
+	<!-- Patched eye -->
+	<ThoughtDef ParentName="LTF_ArtificialThought" >
+		<defName>LTF_PatchedEyeThought</defName>
+		<hediff>Hediff_LTF_PatchedEye</hediff>
+		
+		<stackedEffectMultiplier>0.5</stackedEffectMultiplier>
+		<stackLimit>2</stackLimit>
+		
+		<stages>
+			<li>
+				<label>I am a pirate!</label>
+				<description>I feel like I am the legendary thief KazaaakplethKilik.</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+		</stages>
+
+		<nullifyingTraits>
+			<li>Wimp</li>
+		</nullifyingTraits>
+	</ThoughtDef>
 </Defs>

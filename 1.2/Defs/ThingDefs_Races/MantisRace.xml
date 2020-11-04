@@ -216,10 +216,10 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 							<hediffGraphics>
 								<Hediff_LTF_WoodenShields>Mantis/Prosthetics/WoodenShields/WoodenShieldLeft</Hediff_LTF_WoodenShields>
 								<Hediff_LTF_WoodenClaws>Mantis/Prosthetics/WoodenClaws/WoodenClawLeft</Hediff_LTF_WoodenClaws>
-								
+
 								<Hediff_LTF_LeftSteelClaws>Mantis/Prosthetics/SyntClaws/SyntClawLeft</Hediff_LTF_LeftSteelClaws>
 								<Hediff_LTF_LeftPlasteelClaws>Mantis/Prosthetics/SyntClaws/SyntClawLeft</Hediff_LTF_LeftPlasteelClaws>
-								
+
 								<Hediff_LTF_LeftOverClaws>Mantis/Prosthetics/OverClaws/OverClawLeft</Hediff_LTF_LeftOverClaws>
 								<Hediff_LTF_LeftToxiClaws>Mantis/Prosthetics/ToxiClaws/ToxiClawLeft</Hediff_LTF_LeftToxiClaws>
 							</hediffGraphics>
@@ -267,10 +267,10 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 							<hediffGraphics>
 								<Hediff_LTF_WoodenShields>Mantis/Prosthetics/WoodenShields/WoodenShieldRight</Hediff_LTF_WoodenShields>
 								<Hediff_LTF_WoodenClaws>Mantis/Prosthetics/WoodenClaws/WoodenClawRight</Hediff_LTF_WoodenClaws>
-								
+
 								<Hediff_LTF_RightSteelClaws>Mantis/Prosthetics/SyntClaws/SyntClawRight</Hediff_LTF_RightSteelClaws>
 								<Hediff_LTF_RightPlasteelClaws>Mantis/Prosthetics/SyntClaws/SyntClawRight</Hediff_LTF_RightPlasteelClaws>
-								
+
 								<Hediff_LTF_RightOverClaws>Mantis/Prosthetics/OverClaws/OverClawRight</Hediff_LTF_RightOverClaws>
 								<Hediff_LTF_RightToxiClaws>Mantis/Prosthetics/ToxiClaws/ToxiClawRight</Hediff_LTF_RightToxiClaws>
 							</hediffGraphics>
@@ -313,10 +313,10 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 									</bodyTypes>
 								</north>
 							</offsets>
-							<!--
-							<hediffGraphics>
-							</hediffGraphics>
-							-->
+
+							<hiddenUnderApparelFor>
+								<li>FullHead</li>
+							</hiddenUnderApparelFor>
 						</li>
 						<!-- Right antenna-->
 						<li>
@@ -358,10 +358,9 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 								</north>
 							</offsets>
 
-							<!--
-							<hediffGraphics>
-							</hediffGraphics>
-							-->
+							<hiddenUnderApparelFor>
+								<li>FullHead</li>
+							</hiddenUnderApparelFor>
 						</li>
 
 						<!-- MantisStache-->
@@ -409,7 +408,136 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 								<li>FullHead</li>
 							</hiddenUnderApparelFor>
 						</li>
-						<!-- Eyes -->
+						
+						<!-- Missing Eyes -->
+						<li>
+							<!-- Missing  Left eye -->
+							<path>Mantis/Eye/MissingEye/EmptyEye/LeftEye</path>
+							<bodyPart>left eye</bodyPart>
+
+							<inFrontOfBody>true</inFrontOfBody>
+
+							<colorChannel>base</colorChannel>
+							<layerOffset>-0.27</layerOffset>
+							<shaderType>Transparent</shaderType>
+
+							<layerInvert>false</layerInvert>
+
+							<offsets>
+								<!-- Missing south -->
+								<south>
+									<bodyTypes>
+										<Male>(-.415,	.555)</Male>
+										<Female>(-.415,	.555)</Female>
+										<Thin>(-.415,	.555)</Thin>
+										<Hulk>(-.415,	.555)</Hulk>
+										<Fat>(-.415,	.555)</Fat>
+									</bodyTypes>
+								</south>
+								<!-- Missing  north -->
+								<north>
+									<bodyTypes>
+										<Male>(0,	.85)</Male>
+										<Female>(0, .87)</Female>
+										<Thin>(0,	.85)</Thin>
+										<Hulk>(0,	.85)</Hulk>
+										<Fat>(0,	.85)</Fat>
+									</bodyTypes>
+								</north>
+								<!-- Missing west -->
+								<west>
+									<bodyTypes>
+										<Male>(-.473,	.568)</Male>
+										<Female>(-.515,	.555)</Female>
+										<Thin>(-.502,	.557)</Thin>
+										<Hulk>(-.527,	.565)</Hulk>
+										<Fat>(-.522,	.568)</Fat>
+									</bodyTypes>
+								</west>
+								<!-- Missing east -->
+								<east>
+									<bodyTypes>
+										<Male>(-.475,	.565)</Male>
+										<Female>(-.512,	.557)</Female>
+										<Thin>(-.51,	.558)</Thin>
+										<Hulk>(-.531,	.57)</Hulk>
+										<Fat>(-.523,	.568)</Fat>
+									</bodyTypes>
+								</east>
+							</offsets>
+
+							<drawnInBed>true</drawnInBed>
+
+							<hediffGraphics>
+								<MissingBodyPart>Mantis/Eye/MissingEye/LeftEye</MissingBodyPart>
+								<Hediff_LTF_PatchedEye>Mantis/Eye/PatchedEye/LeftEye</Hediff_LTF_PatchedEye>
+							</hediffGraphics>
+						</li>
+						<!-- Missing Right eye -->
+						<li>
+							<path>Mantis/Eye/MissingEye/EmptyEye/RightEye</path>
+							<bodyPart>right eye</bodyPart>
+
+							<inFrontOfBody>true</inFrontOfBody>
+							<colorChannel>base</colorChannel>
+
+							<layerOffset>-0.27</layerOffset>
+							<shaderType>Transparent</shaderType>
+							
+							<layerInvert>false</layerInvert>
+							
+							<offsets>
+								<!-- missing south -->
+								<south>
+									<bodyTypes>
+										<Male>(-.425,	.555)</Male>
+										<Female>(-.425,	.555)</Female>
+										<Thin>(-.425,	.555)</Thin>
+										<Hulk>(-.425,	.555)</Hulk>
+										<Fat>(-.425,	.555)</Fat>
+									</bodyTypes>
+								</south>
+								<!-- missing east -->
+								<east>
+									<bodyTypes>
+										<Male>(-.475,	.565)</Male>
+										<Female>(-.512,	.557)</Female>
+										<Thin>(-.51,	.558)</Thin>
+										<Hulk>(-.531,	.57)</Hulk>
+										<Fat>(-.523,	.568)</Fat>
+									</bodyTypes>
+								</east>
+								<!-- missing west -->
+								<west>
+									<bodyTypes>
+										<Male>(0,0)</Male>
+										<Female>(0,0)</Female>
+										<Thin>(0,0)</Thin>
+										<Hulk>(0,0)</Hulk>
+										<Fat>(0,0)</Fat>
+									</bodyTypes>
+								</west>
+								<!--missing north -->
+								<north>
+									<bodyTypes>
+										<Male>(0,	.85)</Male>
+										<Female>(0, .87)</Female>
+										<Thin>(0,	.85)</Thin>
+										<Hulk>(0,	.85)</Hulk>
+										<Fat>(0,	.85)</Fat>
+									</bodyTypes>
+								</north>
+							</offsets>
+
+							<drawnInBed>true</drawnInBed>
+
+							<hediffGraphics>
+								<MissingBodyPart>Mantis/Eye/MissingEye/RightEye</MissingBodyPart>
+								<Hediff_LTF_PatchedEye>Mantis/Eye/PatchedEye/RightEye</Hediff_LTF_PatchedEye>
+							</hediffGraphics>
+						</li>
+						
+						<!-- Real Eyes -->
 						<li>
 							<!-- Left eye -->
 							<path>Mantis/Eye/LeftEye</path>
@@ -418,6 +546,8 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 							<inFrontOfBody>true</inFrontOfBody>
 
 							<colorChannel>skin</colorChannel>
+							<layerOffset>-0.27</layerOffset>
+							<!-- <shaderType>Transparent</shaderType> -->
 
 							<offsets>
 								<!-- south -->
@@ -433,11 +563,11 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 								<!-- north -->
 								<north>
 									<bodyTypes>
-										<Male>(0,0)</Male>
-										<Female>(0,0)</Female>
-										<Thin>(0,0)</Thin>
-										<Hulk>(0,0)</Hulk>
-										<Fat>(0,0)</Fat>
+										<Male>(0,	.85)</Male>
+										<Female>(0, .87)</Female>
+										<Thin>(0,	.85)</Thin>
+										<Hulk>(0,	.85)</Hulk>
+										<Fat>(0,	.85)</Fat>
 									</bodyTypes>
 								</north>
 								<!-- west -->
@@ -446,26 +576,25 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 										<Male>(-.473,	.568)</Male>
 										<Female>(-.515,	.555)</Female>
 										<Thin>(-.502,	.557)</Thin>
-										<Hulk>(-.515,	.553)</Hulk>
+										<Hulk>(-.527,	.565)</Hulk>
 										<Fat>(-.522,	.568)</Fat>
 									</bodyTypes>
 								</west>
 								<!-- east -->
 								<east>
 									<bodyTypes>
-										<Male>(0,0)</Male>
-										<Female>(0,0)</Female>
-										<Thin>(0,0)</Thin>
-										<Hulk>(0,0)</Hulk>
-										<Fat>(0,0)</Fat>
+										<Male>(-.475,	.565)</Male>
+										<Female>(-.512,	.557)</Female>
+										<Thin>(-.51,	.558)</Thin>
+										<Hulk>(-.531,	.57)</Hulk>
+										<Fat>(-.523,	.568)</Fat>
 									</bodyTypes>
 								</east>
 							</offsets>
 
 							<drawnInBed>false</drawnInBed>
-							<hiddenUnderApparelFor>
-								<li>FullHead</li>
-							</hiddenUnderApparelFor>
+
+							<!-- <hiddenUnderApparelFor><li>FullHead</li></hiddenUnderApparelFor> -->
 
 							<hediffGraphics>
 								<BionicEye>Mantis/Eye/BionicEye/LeftEye</BionicEye>
@@ -481,6 +610,8 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 
 							<colorChannel>skin</colorChannel>
 							<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+
+							<layerOffset>-0.27</layerOffset>
 
 							<offsets>
 								<!-- south -->
@@ -500,8 +631,9 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 										<!-- <Male>(-.445,	.585)</Male> -->
 										<Male>(-.475,	.565)</Male>
 										<Female>(-.512,	.557)</Female>
-										<Thin>(-.504,	.555)</Thin>
-										<Hulk>(-.512,	.558)</Hulk>
+										<!-- <Thin>(-.502,	.555)</Thin> -->
+										<Thin>(-.51,	.558)</Thin>
+										<Hulk>(-.531,	.57)</Hulk>
 										<Fat>(-.523,	.568)</Fat>
 									</bodyTypes>
 								</east>
@@ -518,19 +650,17 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 								<!-- north -->
 								<north>
 									<bodyTypes>
-										<Male>(0,0)</Male>
-										<Female>(0,0)</Female>
-										<Thin>(0,0)</Thin>
-										<Hulk>(0,0)</Hulk>
-										<Fat>(0,0)</Fat>
+										<Male>(0,	.85)</Male>
+										<Female>(0, .87)</Female>
+										<Thin>(0,	.85)</Thin>
+										<Hulk>(0,	.85)</Hulk>
+										<Fat>(0,	.85)</Fat>
 									</bodyTypes>
 								</north>
 							</offsets>
 
 							<drawnInBed>false</drawnInBed>
-							<hiddenUnderApparelFor>
-								<li>FullHead</li>
-							</hiddenUnderApparelFor>
+							<!-- <hiddenUnderApparelFor><li>FullHead</li></hiddenUnderApparelFor> -->
 
 							<hediffGraphics>
 								<BionicEye>Mantis/Eye/BionicEye/RightEye</BionicEye>
