@@ -83,7 +83,7 @@
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="MantisCivBase">
-		<defName>LTF_MantisAddicted</defName>
+		<defName>LTF_Mantis_Addicted</defName>
 		<label>mantis pothead</label>
 
 		<chemicalAddictionChance>1</chemicalAddictionChance>

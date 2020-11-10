@@ -98,7 +98,7 @@
 					<MantisColonist>20</MantisColonist>
 					<MantisGuard>10</MantisGuard>
 					<MantisFighter>2</MantisFighter>
-					<LTF_MantisAddicted>1</LTF_MantisAddicted>
+					<LTF_Mantis_Addicted>1</LTF_Mantis_Addicted>
 				</options>
 			</li>
 			<li>
@@ -131,7 +131,7 @@
 					<MantisFighter>100</MantisFighter>
 					<MantisHunter>50</MantisHunter>
 					<MantisHistGuard>15</MantisHistGuard>
-					<LTF_MantisAddicted>5</LTF_MantisAddicted>
+					<LTF_Mantis_Addicted>5</LTF_Mantis_Addicted>
 				</guards>
 			</li>
 			<li>
@@ -143,7 +143,7 @@
 					<MantisHunter>50</MantisHunter>
 					<MantisHistGuard>100</MantisHistGuard>
 					<MantisShadowscale>100</MantisShadowscale>
-					<LTF_MantisAddicted>15</LTF_MantisAddicted>
+					<LTF_Mantis_Addicted>15</LTF_Mantis_Addicted>
 				</options>
 			</li>
 		</pawnGroupMakers>
