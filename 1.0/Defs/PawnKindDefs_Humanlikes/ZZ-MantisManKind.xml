@@ -27,8 +27,10 @@
     <itemQuality>Good</itemQuality>
     <chemicalAddictionChance>0.08</chemicalAddictionChance>
 	
-    <apparelMoney>50~3200</apparelMoney>
-	
+    <apparelMoney>
+      <min>50</min>
+      <max>3200</max>
+    </apparelMoney>
 		<apparelTags>
 		<li>IndustrialBasic</li>
 		<li>IndustrialAdvanced</li>
@@ -40,14 +42,21 @@
 	
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
     <!-- <apparelAllowHeadwearChance>0.5</apparelAllowHeadwearChance> -->
-    <weaponMoney>300~900</weaponMoney>
+    <weaponMoney>
+      <min>300</min>
+      <max>900</max>
+    </weaponMoney>
     <weaponTags>
       <li>Gun</li>
     </weaponTags>
-    <techHediffsMoney>1000~5000</techHediffsMoney>
-	
-    <combatEnhancingDrugsCount>0~2</combatEnhancingDrugsCount>
-	
+    <techHediffsMoney>
+      <min>1000</min>
+      <max>5000</max>
+    </techHediffsMoney>
+    <combatEnhancingDrugsCount>
+      <min>0</min>
+      <max>2</max>
+    </combatEnhancingDrugsCount>
     <techHediffsTags>
       <li>Advanced</li>
     </techHediffsTags>
@@ -75,8 +84,14 @@
     <forceNormalGearQuality>true</forceNormalGearQuality>
     <isFighter>false</isFighter>
     <chemicalAddictionChance>0.08</chemicalAddictionChance>
-    <gearHealthRange>0.4~1.4</gearHealthRange>
-    <apparelMoney>500~2000</apparelMoney>
+    <gearHealthRange>
+      <min>0.4</min>
+      <max>1.4</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>500</min>
+      <max>2000</max>
+    </apparelMoney>
 	
 	<apparelTags>
 		<li>IndustrialBasic</li>
