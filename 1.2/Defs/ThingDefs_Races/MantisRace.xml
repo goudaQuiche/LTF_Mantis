@@ -980,6 +980,11 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 
+			<specialShadowData>
+				<volume>(0.3, 0.8, 0.4)</volume>
+				<offset>(0,0,-0.3)</offset>
+			</specialShadowData>
+
 			<ageGenerationCurve>
 				<points>
 					<li>(14,0)</li>
