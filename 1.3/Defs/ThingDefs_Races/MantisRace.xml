@@ -52,9 +52,9 @@ While Mantis excel at combat, especially personal combat, they are the least ade
 			<!-- <ArmorRating_Blunt>0.1</ArmorRating_Blunt> -->
 			<!-- <ArmorRating_Sharp>0.15</ArmorRating_Sharp> -->
 			<!-- fight -->
-			<ShootingAccuracyPawn>1.25</ShootingAccuracyPawn>
-			<MeleeHitChance>1.3</MeleeHitChance>
-			<MeleeDodgeChance>1.05</MeleeDodgeChance>
+			<ShootingAccuracyPawn>.25</ShootingAccuracyPawn>
+			<MeleeHitChance>.3</MeleeHitChance>
+			<MeleeDodgeChance>.05</MeleeDodgeChance>
 
 		</statBases>
 
