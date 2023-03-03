@@ -1,0 +1,299 @@
+<Defs>
+    <AlienRace.AlienBackstoryDef>
+		<defName>MantisChildBS01</defName>
+		<title>Kind</title>
+		<titleShort>kind</titleShort>
+		<baseDesc>[PAWN_nameDef] is a renegade.</baseDesc>
+		<slot>Childhood</slot>
+		<!-- <bodyTypeGlobal>Male</bodyTypeGlobal> -->
+		  <spawnCategories>
+		  <li>MantisBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li><key>Social</key><value>4</value></li>
+			<li><key>Melee</key><value>-1</value></li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li><defName>Kind</defName></li>
+		</forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+	<!-- -->
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>MantisChildBS02</defName>
+		<title>Serial influencer</title>
+		<titleShort>Influencer</titleShort>
+		<baseDesc>[PAWN_nameDef] was a psychopathic home video maker. [PAWN_pronoun] grew resentful over popular known video uploader over the ansible. [PAWN_pronoun] made [PAWN_possessive] goal to eliminate as many of them as possible in hopes to see a growth spurt in [PAWN_possessive] channel. </baseDesc>
+		<slot>Childhood</slot>
+		
+		<spawnCategories>
+		  <li>MantisBackstory</li>
+		</spawnCategories>
+		
+		<skillGains>
+			<li><key>Melee</key><value>4</value></li>
+			<li><key>Crafting</key><value>2</value></li>
+			<li><key>Intellectual</key><value>-2</value></li>
+			<li><key>Social</key><value>-3</value></li>			
+		</skillGains>
+		
+		<forcedTraitsChance>
+			<li><defName>Psychopath</defName></li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- -->
+	<AlienRace.AlienBackstoryDef>
+		<defName>MantisChildBS03</defName>
+		<title>Dead chicken dispenser</title>
+		<titleShort>death dispenser</titleShort>
+		<baseDesc>[PAWN_nameDef] loves to see headless chicken running around. [PAWN_pronoun] gets very cautious about their health because it makes them bleed more and [PAWN_nameDef] laughs. [PAWN_pronoun] also likes uncautious raiders</baseDesc>
+		<slot>Childhood</slot>
+		
+		<spawnCategories>
+		  <li>MantisBackstory</li>
+		</spawnCategories>
+		
+		<skillGains>
+			<li><key>Animals</key><value>5</value></li>
+			<li><key>Melee</key><value>3</value></li>
+			<li><key>Social</key><value>-2</value></li>
+			<li><key>Shooting</key><value>-1</value></li>			
+		</skillGains>
+		
+	</AlienRace.AlienBackstoryDef>
+<!-- -->
+	<AlienRace.AlienBackstoryDef>
+		<defName>MantisChildBS04</defName>
+		<title>Repaired</title>
+		<titleShort>repaired</titleShort>
+		<baseDesc>[PAWN_nameDef] was sent to trash into a plant shredders. [PAWN_pronoun] was repaired with the ressources that were gathered through a very touching crowdfunding campaign. They recycled the plant shredders that got destroyed in the process.</baseDesc>
+		<slot>Childhood</slot>
+		
+		<spawnCategories>
+		  <li>MantisBackstory</li>
+		</spawnCategories>
+		
+		<skillGains>
+			<li><key>Social</key><value>3</value></li>
+			<li><key>Construction</key><value>-1</value></li>
+			<li><key>Crafting</key><value>-1</value></li>
+		</skillGains>
+		<!-- the part is badly initiated, i get : Part is null. It should be set before PostAdd for Hediff_SteelClaws. It refers to Hediff_AddedPart.cs I am pretty sure it's not the mod fault, but i thought maybe you could help me. I understand that it's the implant that is lacking if (base.Part == null). 		 -->
+		<forcedHediffs>
+			<li>Hediff_LTF_LeftSteelClaws</li>
+			<li>Hediff_LTF_RightSteelClaws</li>
+		</forcedHediffs>
+		
+	</AlienRace.AlienBackstoryDef>
+<!-- -->
+	<AlienRace.AlienBackstoryDef>
+		<defName>MantisChildBS05</defName>
+		<title>Scab teaser</title>
+		<titleShort>Scab</titleShort>
+		<baseDesc>[PAWN_nameDef] loves to scratch [PAWN_possessive] own wounds. [PAWN_pronoun] feels [PAWN_pronoun] makes [PAWN_possessive] flesh cleaner by almost scaryfying himself. It's not really [PAWN_nameDef]'s fault when [PAWN_pronoun] gets wounded.</baseDesc>
+		<slot>Childhood</slot>
+		
+		<spawnCategories>
+		  <li>MantisBackstory</li>
+		</spawnCategories>
+		
+		<skillGains>
+			<li><key>Melee</key><value>4</value></li>
+			<li><key>Medicine</key><value>2</value></li>
+			<li><key>Shooting</key><value>-2</value></li>
+			<li><key>Social</key><value>-4</value></li>			
+		</skillGains>
+		
+		<forcedTraitsChance>
+			<li><defName>Masochist</defName></li>
+			<li><defName>Immunity</defName><degree>1</degree></li>
+			<li><defName>Bloodlust</defName></li>
+		</forcedTraitsChance>
+		
+	</AlienRace.AlienBackstoryDef>		
+		<!-- -->
+	<AlienRace.AlienBackstoryDef>
+		<defName>MantisChildBS06</defName>
+		<title>Theater prodigy</title>
+		<titleShort>ZoltanTheater</titleShort>
+		<baseDesc>When [PAWN_nameDef] used to be in the transrace nursery, [PAWN_pronoun] was part of theater piece where a Zoltan embodied Rudolph the Red Nosed Reindeer from the terran believes. The Zoltan deserved to be abused. While [PAWN_nameDef] was about to throw [PAWN_possessive] most humiliating trait, [PAWN_pronoun] was affected by a strange emotion wave letting him wandering around. Mantis nature is about violence but conscience, as it self called, made [PAWN_nameDef] stop being as [PAWN_pronoun] should be. Confusing.</baseDesc>
+		<slot>Childhood</slot>
+		
+		<spawnCategories>
+		  <li>MantisBackstory</li>
+		</spawnCategories>
+		
+		<skillGains>
+			<li><key>Social</key><value>5</value></li>
+			<li><key>Melee</key><value>-2</value></li>
+			<li><key>Shooting</key><value>-2</value></li>
+		</skillGains>
+		
+		<forcedTraitsChance>
+			<li><defName>Nerves</defName><degree>-1</degree></li>
+			<li><defName>Wimp</defName></li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>MantisChildBS07</defName>
+		<title>No stache</title>
+		<titleShort>nostache</titleShort>
+		<baseDesc>[PAWN_nameDef] has no stache. Because of that, [PAWN_pronoun] has always been bullied by [PAWN_possessive] siblings. [PAWN_possessive] combat skills are indeed lower than a regular mantis, but [PAWN_pronoun] still likes a good fight and be the center of attention.</baseDesc>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>MantisBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li><key>Social</key><value>3</value></li>
+			<li><key>Animals</key><value>3</value></li>
+			<li><key>Melee</key><value>-2</value></li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li><defName>Masochist</defName></li>
+		</forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>MantisChildBS08</defName>
+		<title>Shades of red</title>
+		<titleShort>painter</titleShort>
+		<baseDesc>People tend to call [PAWN_possessive] work horrific or horrendous. [PAWN_pronoun] calls them true works of pure art.</baseDesc>
+		<slot>Childhood</slot>
+		<!-- <bodyTypeGlobal>Male</bodyTypeGlobal> -->
+		<spawnCategories>
+			<li>MantisBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li><key>Cooking</key><value>4</value></li>
+			<li><key>Melee</key><value>3</value></li>
+			<li><key>Artistic</key><value>-3</value></li>
+			<li><key>Medicine</key><value>1</value></li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li><defName>Bloodlust</defName></li>
+			<li><defName>TorturedArtist</defName></li>
+		</forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>MantisChildBS09</defName>
+		<title>Babysitter</title>
+		<titleShort>babysitter</titleShort>
+		<baseDesc>[PAWN_nameDef] signed up [PAWN_possessive] first babysitting job with children, [PAWN_pronoun] knew were disruptive. [PAWN_pronoun] had all the schedules, instructions, and emergency procedures but none of these applied to what happened. A deranged cannibal serial killer mantis had plans for [PAWN_objective] and the two children [PAWN_pronoun] had to care of. That night really went of track when [PAWN_pronoun] managed to lead the children into a revenge bloodbath over the agressor. It was [PAWN_possessive] last babysitting job but [PAWN_pronoun] often thinks of that night with nostalgia.</baseDesc>
+		<slot>Childhood</slot>
+		<!-- <bodyTypeGlobal>Male</bodyTypeGlobal> -->
+		<spawnCategories>
+			<li>MantisBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li><key>Melee</key><value>2</value></li>
+			<li><key>Social</key><value>5</value></li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li><defName>Cannibal</defName></li>
+			<li><defName>GreatMemory</defName></li>
+		</forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>MantisChildBS10</defName>
+		<title>To hell and back</title>
+		<titleShort>survivor</titleShort>
+		<baseDesc>Once, [PAWN_nameDef] was caught in a fire accident in [PAWN_possessive] hive school and was assumed that [PAWN_pronoun] would not live. [PAWN_possessive] mother was told that [PAWN_pronoun] was sure to die, for the terrible fire had devastated the lower half of [PAWN_possessive] body. Even if [PAWN_pronoun] were to survive, [PAWN_pronoun] would be a cripple throughout [PAWN_possessive] life. Much to be the amazement of the doctor, [PAWN_pronoun] did survive. But unfortunately from [PAWN_possessive] waist down, [PAWN_pronoun] had no motor ability. [PAWN_possessive] thin legs just dangled there, lifeless. Ultimately [PAWN_pronoun] was discharged from the hospital. But [PAWN_possessive] determination to walk was indomitable. At home, when [PAWN_pronoun] was not in bed, [PAWN_pronoun] was confined to a wheelchair. One day, [PAWN_pronoun] threw [PAWN_objective]self from the chair and pulled [PAWN_objective]self across the grass, dragging [PAWN_possessive] legs behind [PAWN_objective]. [PAWN_pronoun] reached the picket fence, raised [PAWN_objective]self up and then stake by stake, [PAWN_pronoun] began dragging [PAWN_objective]self along the fence, [PAWN_possessive] resolve to walk undeterred. [PAWN_pronoun] did this every day, with faith in [PAWN_objective]self that [PAWN_pronoun] would be able to walk unaided. With [PAWN_possessive] iron persistence and [PAWN_possessive] resolute determination, [PAWN_pronoun] did develop the ability to stand up, then to walk haltingly, then to walk by [PAWN_objective]self and then to run. And quite fast with it.
+		</baseDesc>
+		<slot>Childhood</slot>
+		<!-- <bodyTypeGlobal>Male</bodyTypeGlobal> -->
+		<spawnCategories>
+			<li>MantisBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li><key>Medicine</key><value>2</value></li>
+			<li><key>Melee</key><value>2</value></li>
+			<li><key>Social</key><value>-1</value></li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li><defName>Nerves</defName><degree>2</degree></li>
+			<li><defName>SpeedOffset</defName><degree>1</degree></li>
+		</forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>MantisChildBS11</defName>
+		<title>Nature blessed</title>
+		<titleShort>Gaiadopted</titleShort>
+		<baseDesc>[PAWN_nameDef] had a troubled childhood – [PAWN_possessive] parents separated, and [PAWN_possessive] stepfather was physically abusive to [PAWN_possessive] mother and siblings. [PAWN_possessive] mother was falsely convicted twice because of [PAWN_possessive] stepfather’s allegations. Because they had no one to take care of them, [PAWN_pronoun], along with and [PAWN_possessive] siblings, had to stay in a foster home at the age of 8. It turned out that [PAWN_possessive] adoptive family lived in a peaceful farm where hard work and honesty values were dominant.
+		</baseDesc>
+		<slot>Childhood</slot>
+		<!-- <bodyTypeGlobal>Male</bodyTypeGlobal> -->
+		<spawnCategories>
+			<li>MantisBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li><key>Plants</key><value>4</value></li>
+			<li><key>Animals</key><value>4</value></li>
+			<li><key>Social</key><value>2</value></li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li><defName>DislikesMen</defName></li>
+		</forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>MantisChildBS12</defName>
+		<title>Megaspider wrangler</title>
+		<titleShort>Wrangler</titleShort>
+		<baseDesc>[PAWN_nameDef] took up the only job available to sharpest of Mantiss; [PAWN_nameDef] went into  [PAWN_possessive] deepest hive cave systems to get rid of the megaspiders that were naturally taking advantage of [PAWN_possessive] siblings digging structures. Years of relentless fights and coexistence has hardened [PAWN_possessive] chitin and developed his animal empathy.</baseDesc>
+		<slot>Childhood</slot>
+
+		<spawnCategories>
+			<li>MantisBackstory</li>
+		</spawnCategories>
+		
+        <skillGains>
+			<li><key>Melee</key><value>5</value></li>
+			<li><key>Animals</key><value>3</value></li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li><defName>Beauty</defName><degree>-1</degree></li>
+			<li><defName>Tough</defName></li>
+			<li><defName>Undergrounder</defName></li>
+		</forcedTraitsChance>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+    </AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>MantisChildBS13</defName>
+		<title>Child soldier</title>
+		<titleShort>Instrumented</titleShort>
+		<baseDesc>The soldiers who gunned down his terrified community members had also targeted [PAWN_nameDef]’s mom and dad. They tortured them, then killed them. [PAWN_nameDef] managed to run for the bush. War raged all around him. Though thousands of children across the hives fog of war had felt similar panic, growing up amidst violent conflict, it made no difference. Cowering in the trees, [PAWN_nameDef] was alone in the world. 
+		[PAWN_pronoun] stepped out of the bushes and volunteered [PAWN_objective]self as a child soldier. “I didn’t want to do it,” [PAWN_pronoun] remembers, “but the opposition had killed my family, and I had to join to protect myself.”
+		Eventually, [PAWN_nameDef] was released from service. The fighting had eased, and to the militia [PAWN_pronoun] was disposable. But [PAWN_possessive] mind was dominated by unthinkable images, and horrible, heart wrenching sounds. 
+		</baseDesc>
+		<slot>Childhood</slot>
+
+		<spawnCategories>
+			<li>MantisBackstory</li>
+		</spawnCategories>
+		
+        <skillGains>
+			<li><key>Melee</key><value>5</value></li>
+			<li><key>Shooting</key><value>7</value></li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li><defName>NaturalMood</defName><degree>-1</degree></li>
+			<li><defName>PsychicSensitivity</defName><degree>1</degree></li>
+		</forcedTraitsChance>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+		<relationSettings>
+			<relationChanceModifierParent>0</relationChanceModifierParent>
+		</relationSettings>
+    </AlienRace.AlienBackstoryDef>
+	
+</Defs>
