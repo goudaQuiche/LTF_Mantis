@@ -23,4 +23,11 @@
 		<li IfModActive="goudaquiche.BloodAndStains">ConditionalPatches/BnS_Patch</li>
 		<li IfModActive="Ludeon.Rimworld.Royalty">ConditionalPatches/Royalty_Patch</li>
 	</v1.3>
+	
+	<v1.5>
+		<li>Common</li>
+		<li>1.5</li>
+		<li IfModActive="goudaquiche.BloodAndStains">ConditionalPatches/BnS_Patch</li>
+		<li IfModActive="Ludeon.Rimworld.Royalty">ConditionalPatches/Royalty_Patch</li>
+	</v1.5>
 </loadFolders>
